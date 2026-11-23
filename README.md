@@ -4,9 +4,9 @@
 
 # Perfect Charity System (PCS)
 
-**Each purchase pays a receiver directly. The internal PCS can then be donated onward, enabling another receiver to receive a fresh purchase.**
+**A blockchain-based charity system that connects donors directly with people in need and keeps a transparent record of their contributions.**
 
-Perfect Charity System is an **Elite Cybersecurity Specialist** initiative designed to eliminate charity crimes through its logical flow while keeping participation simple. Its ambition is to achieve the most transparent charity system ever made and minimise world poverty without raising a single sword, but by working together.
+Perfect Charity System is an initiative by **Elite Cybersecurity Specialist**. It is designed to eliminate charity crimes through direct donations, blockchain records and public accountability. The goal is to build the world’s most transparent charity system and minimise global poverty by working together, without raising a single sword. The platform is designed to be simple for everyone to use.
 
 Its strength comes from the combination: identifiable receivers, direct payments, controlled allocations, recorded movements, separate operating funding, disclosed earnings and accountable oversight. The concept creator is credited once on the opening image.
 
