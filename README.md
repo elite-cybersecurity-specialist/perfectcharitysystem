@@ -10,7 +10,7 @@ Perfect Charity System is an **Elite Cybersecurity Specialist** initiative desig
 
 Its strength comes from the combination: identifiable receivers, direct payments, controlled allocations, recorded movements, separate operating funding, disclosed earnings and accountable oversight. The concept creator is credited once on the opening image.
 
-> **Development status: approximately 20% complete.** This repository contains the prototype source and sample interfaces. The operating model below describes the intended system; implementation progress is documented separately in [Development status](documentation/development-status.md).
+> **Development status: approximately 5% complete.** This repository contains the prototype source and sample interfaces. The operating model below describes the intended system; implementation progress is documented separately in [Development status](documentation/development-status.md).
 
 [The problem](#1-the-charity-abuses-pcs-is-designed-to-address) · [The logical flow](#2-follow-the-complete-donation-cycle) · [Who receives help](#3-the-seven-individual-receiver-categories) · [Monthly limits](#4-monthly-limits-and-evidence-backed-exceptions) · [Profiles](#5-a-public-charity-profile) · [Funding](#6-three-separate-funding-purposes) · [Governance](#8-directors-cannot-profit-from-donations) · [How the rules connect](#10-how-the-prevention-rules-work-together)
 
@@ -231,7 +231,7 @@ The original record remains. Corrections use a new linked transfer with its reas
 
 ## 12. Development and repository
 
-This is the complete repository package for the current prototype and its clarified presentation. Development remains approximately **20% complete**; a complete package is not a declaration that all intended controls are implemented.
+This is the complete repository package for the current prototype and its clarified presentation. Development remains approximately **5% complete**; a complete package is not a declaration that all intended controls are implemented.
 
 The source includes registration and profile routes, receiver creation, purchase and receipt workflows, confirmation, monthly credits, manual additions, wallet and ledger logic, project records and inspector interfaces. These are prototype components requiring integration and validation.
 
