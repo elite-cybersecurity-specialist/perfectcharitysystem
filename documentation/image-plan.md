@@ -1,50 +1,36 @@
-# Final image order and purpose
+# README image alignment
 
-The README integrates the latest fourteen core visuals and the original ECS digital name card. Keep the full available content width for core visuals; the contact card is displayed at 525 pixels. Asset numbers identify files, not page order.
+The README uses fifteen core visuals and the original ECS digital name card. File numbers identify stable assets rather than their reading order. The approved cover remains first for thumbnails. Explanatory content is also available as readable Markdown.
 
-| Page stage | Asset | What the reader learns |
+| Reading stage | Asset | Purpose |
 | --- | --- | --- |
-| Opening | [Main cover](../assets/Perfect-Charity-System.png) | PCS, ECS, the ambition and the single opening concept credit. |
-| Problem | [Abuses 01–04](../assets/02-charity-abuses-01-04.png) | Personal enrichment, fundraising commissions, ghost payrolls and procurement kickbacks. |
-| Problem | [Abuses 05–08](../assets/03-charity-abuses-05-08.png) | Exploitation, crypto misuse, extravagant fundraising and money laundering. |
-| Problem | [Abuses 09–11](../assets/04-charity-abuses-09-11.png) | Institutional profiteering, external fees and exploitation linked to fundraising. |
-| Logical flow | [Direct payments](../assets/06-direct-payments.png) | Pay the receiver externally, submit timestamped evidence and authorise one recorded release after actual confirmation. |
-| Logical flow | [PCS cycle](../assets/07-pcs-cycle.png) | Buy, donate onward and enable the next fresh external purchase. |
-| Receivers | [Seven categories](../assets/05-seven-receiver-categories.png) | Eligibility, interviews and approval, with small varied global portraits. |
-| Monthly limits | [Allocation and exceptions](../assets/13-monthly-allocation.png) | Standard 10,000 PCS monthly allocation; more requires evidence and recorded approval. |
-| Profiles | [Charity profiles](../assets/08-charity-profiles.png) | Donor privacy, public receiver histories, volunteering and mandatory earnings disclosure. |
-| Funding | [Separate purposes](../assets/09-separate-funding.png) | Receiver assistance, internal operating support and external projects. |
-| External operations | [Project vision](../assets/10-external-operations-volunteering.png) | Food, medical, shelter and water projects with visible records and volunteer achievements. |
-| Governance | [Public earnings](../assets/11-governance-earnings.png) | Directors cannot profit; relevant participant earnings and costs remain visible. |
-| Oversight | [Verification](../assets/12-verification-oversight.png) | Payment checks, recorded history, reconciliation and one inspector account per country. |
-| Opening principles | [Connected prevention](../assets/14-prevention-through-logical-flow.png) | Seven reinforcing principles support the simple participant experience. |
-| Contact | [Official name card](../assets/ECS-Official-Digital-Name-Card.jpeg) | Existing ECS identity and contact details. |
+| Opening | [Main cover](../assets/Perfect-Charity-System.png) | PCS, ECS, the transparency ambition and the opening concept credit. |
+| 1. Logical flow | [Connected protections](../assets/14-prevention-through-logical-flow.png) | Direct assistance, a traceable contribution and the continuing cycle. |
+| 2. People and profiles | [Profile rules](../assets/08-charity-profiles.png) | Public-only Receivers, public/private Donors, location and separate activity records. |
+| 2. Profile example | [Four activity records](../assets/15-profile-activity-example.png) | Individual donation, organisation donation, unpaid volunteering and a separate paid service. |
+| 3. Receiver eligibility | [Seven categories](../assets/05-seven-receiver-categories.png) | Seven individual categories and team interview/approval. |
+| 4. Direct payments | [Payment and confirmation](../assets/06-direct-payments.png) | External payment goes to the Receiver; confirmation authorises one Receiver-to-Donor PCS release. |
+| 5. Continuing cycle | [PCS cycle](../assets/07-pcs-cycle.png) | Buy, donate onward and enable the next fresh external purchase. |
+| 6. Allocation | [Monthly PCS](../assets/13-monthly-allocation.png) | 10,000 PCS standard monthly allocation; evidence and approval for additional PCS. |
+| 7. Funding | [Three purposes](../assets/09-separate-funding.png) | Assistance, internal operations and External Services stay separate. |
+| 7. External Services | [Practical aid projects](../assets/10-external-operations-volunteering.png) | Project budgets, spending, delivery and participant achievements. |
+| 8. Governance | [Directors and earnings](../assets/11-governance-earnings.png) | Direct/indirect no-profit rule and explicit public paid-service fields. |
+| 9. Eleven abuses | [Abuses 1–4](../assets/02-charity-abuses-01-04.png) | Profiteering, commissions, ghost payrolls and procurement kickbacks. |
+| 9. Eleven abuses | [Abuses 5–8](../assets/03-charity-abuses-05-08.png) | Exploitation, crypto misuse, lavish fundraising and laundering. |
+| 9. Eleven abuses | [Abuses 9–11](../assets/04-charity-abuses-09-11.png) | Institutional profiteering, provider deductions and sexual exploitation. |
+| 10. Oversight | [Verification and inspectors](../assets/12-verification-oversight.png) | Recorded collections, reconciliation and one logged inspector account per country. |
+| Contact | [Official name card](../assets/ECS-Official-Digital-Name-Card.jpeg) | Existing ECS identity and contact details, displayed at 525 pixels. |
 
-## Consistency rules
+## Profile example rules
 
-- The 10,000 figure is a standard monthly PCS allocation, valued against 1 PCS = 1 USDT. Keep allocations, accumulated balances and actual external assistance separate in captions and reporting.
-- External providers process payments; the platform governs the recorded charity workflow.
-- Profile privacy does not remove receiver contribution histories or mandatory relevant earnings disclosure.
-- Separate operating support does not override the directors' direct and indirect no-profit prohibition.
-- Country inspector uniqueness and logged actions are operating rules; the development-status document identifies implementation work.
-- The connected-prevention illustration is a conceptual brand image, not a technical flowchart or an award certificate.
-- Human portraits are limited and varied. Race and religion are not profile labels or receiver-selection categories.
-- The world-record statement is the project's ambition. No recognition badge or official endorsement is added.
+Use **Example Donor Name**, **Example Individual Name** and **Example Charity Organization**, with **Example City** and **Example Country** labels. Do not use real participant names, a named country, or real charity activity. The company's actual identity and contact card remain company information.
 
-## Production sources
+The two donation records show 100 PCS to an individual and 200 PCS to an organisation. The unpaid activity shows three volunteer hours. A different paid activity shows five hours at USD 20 per hour, totalling USD 100, from appropriate separate funding. USD is an illustrative work-payment currency, separate from the 1 PCS = 1 USDT internal valuation reference.
 
-Seven images use generated illustration: the cover, the three awareness panels, receiver categories, external projects and connected prevention. Their prompts are in [image-generation-prompts.json](image-generation-prompts.json).
+## Production sources and consistency
 
-Seven explanatory panels use controlled vector text and shapes: direct payment, the PCS cycle, profiles, funding, governance, oversight and monthly allocation. Their editable SVG files are in [assets/diagrams/](../assets/diagrams/).
+Seven illustrations retain their existing approved artwork: cover, three abuse panels, eligibility, External Services and connected prevention. Their original prompts are in [image-generation-prompts.json](image-generation-prompts.json).
 
-All explanations remain available as readable Markdown in the README. The cover preserves the existing repository asset path while using the latest approved artwork.
+Eight panels use controlled vector text and shapes: payments, cycle, profiles, funding, governance, oversight, allocation and profile example. Matching editable sources are in [assets/diagrams/](../assets/diagrams/). This update revises 08 and 11 and adds 15.
 
-## 28 November 2026 clarity refresh
-
-The existing PNG paths and their matching editable SVG paths are retained for seven replacement explanatory panels: 06, 07, 08, 09, 11, 12 and 13. Each export is 1920 × 1080, with larger vector text, wrapping labels and complete visible content.
-
-The cycle panel explicitly distinguishes two fresh payments providing 200 USDT net assistance from the same 100 PCS circulating between participants. The payment panel retains the absence of a PCS-owned fiat gateway and the restriction against external PCS trading.
-
-The approved cover, awareness illustrations, seven-category image, External Services artwork, connected-prevention artwork and official name card are unchanged. The cover remains the first visible real image. Connected prevention now appears near the opening once.
-
-The public explanation is available on the [PCS website](https://elite-cybersecurity-specialist.blogspot.com/2026/11/perfect-charity-system.html). No public document download is included in this refresh.
+Receivers stay public-only. Donor privacy never hides required earnings or Receiver contribution records. Directors cannot profit across any funding purpose. PCS is internal and not externally traded. Monthly allocation, accumulated balance and actual cash assistance are distinct. The world-record campaign is an ambition, not an award badge. No public PDF download is added.

@@ -1,21 +1,21 @@
-# Presentation refresh validation
+# Package validation
 
-Prepared 28 November 2026 against the user-supplied `perfectcharitysystem(2).zip` and complete PCS Blogger post source.
+Prepared 28 November 2026 from the uploaded `perfectcharitysystem(3).zip` repository archive.
 
-| Check | Scope and result |
+| Check | Result |
 | --- | --- |
-| Replacement diagrams | Seven PNGs are 1920 × 1080, decode successfully and match seven parseable editable SVGs. Rendered diagrams were visually inspected for text visibility, clipping and layout. |
-| Existing asset paths | All seven PNG and matching SVG filenames retain their previous repository paths. |
-| Public content | The opening explains the logical flow. The example distinguishes 200 USDT net assistance, two fresh payments and the same 100 PCS. The no-own-fiat-gateway and no-external-PCS-trading rules remain. |
-| Preserved content | All existing body paragraphs, list items and comparison-cell wording remain in the Blogger replacement. Founder story, public challenge, External Services, volunteer achievements and contact footer are preserved. |
-| Mobile structure | The profile, eleven-abuse and other comparison tables use wrapping cards. All eleven abuse entries remain present. CSS collapses card grids to one column at 700 pixels. No fixed minimum-width table or horizontally scrolling flow remains. |
-| Blogger structure | One scoped post wrapper, no outer document wrapper, no scripts or duplicate head metadata. Local anchors resolve and IDs are unique. |
-| Images and cover | Fifteen image references resolve to supplied assets; the existing cover remains first and eager. Lower artwork is lazy-loaded. All images retain dimensions and descriptive alt text; CSS preserves full illustrations. Changed URLs use actual Git blob cache keys. |
-| Link structure | Local Markdown targets, navigation anchors and repository image references resolve against the supplied ZIP plus this overlay. HTTPS asset references and safe new-tab attributes are retained. |
-| Completion estimate | The README and supporting presentation documents consistently use the approved approximate 5% estimate. This is a presentation correction, not a new engineering audit. |
-| Restricted scope | The overlay contains presentation files only. No application code, templates, configuration, models, accounts, uploaded media, Git metadata, PDF or main-theme XML is included. |
-| Packaging | The archive has unique safe member paths, passes ZIP CRC checks and matches its update list. An extraction rehearsal checks preservation of source and unrelated state. |
+| Input archive | CRC check passed; its working tree is the baseline for this update. |
+| Application preservation | 55 application/configuration/template/model/launcher paths remain byte-for-byte equal to the supplied archive. |
+| Python syntax | 8 existing Python files parse successfully without importing or running the application. |
+| README imagery | Fifteen core PNGs and the original digital name card pass integrity checks; the cover remains first and every image follows the planned reading order. |
+| Editable assets | Eight SVGs parse successfully. Images 08 and 11 are revised, and 15 adds two donation paths plus volunteering and paid work. |
+| Generic examples | The profile example uses generic participant/city/country labels, with no named country or realistic personal names. Paid work is 5 hours x USD 20 = USD 100. |
+| Documentation | Local file links, fragments, explicit anchors, code fences and expandable FAQs resolve or balance successfully. |
+| Software status | Public presentation documents consistently use self-funded, approximately 5% complete. |
+| Update list | 20 exact presentation/documentation paths; no application source, runtime-data or Git-history paths. |
+| Transfer rehearsal | Copy and Git staging completed in an isolated checkout; existing Git HEAD, private environment, account state and receipt sentinels remained intact. |
+| ZIP | Final build checks CRCs, unique safe member paths, file inventory and every member's bytes against the staged package. |
 
-The [inventory](../PACKAGE-CONTENTS.json) retains the earlier source-provenance record and historical package checks separately from this refresh. Current file hashes describe the supplied snapshot with these presentation replacements applied.
+This release updates presentation and documentation. Application startup, payment-provider processing, real-money operation, scale testing and production deployment were not exercised. No commit or push to the user's GitHub repository was performed. The intended operating model and its approximately 5% implementation status remain distinct.
 
-These checks do not claim application startup, real payments, production readiness, a GitHub push, a Blogger save or visual verification of the published post. The existing live page could not be opened by the available retrieval service. Browser Preview and live mobile/desktop verification remain to be completed after application of the files.
+See [Package contents](../PACKAGE-CONTENTS.json), [Development status](development-status.md) and [Update GitHub](../UPDATE-GITHUB.md).

@@ -1,6 +1,6 @@
 # PCS: the donation cycle
 
-This document describes the clarified Perfect Charity System concept. Implementation is approximately 5% complete; the operating model and its prototype implementation must be distinguished.
+This document describes the clarified Perfect Charity System concept. The project is self-funded and implementation is approximately 5% complete; the operating model and its prototype implementation must be distinguished.
 
 ## What moves
 
@@ -24,14 +24,6 @@ PCS does not build or operate a fiat payment gateway. All authorised charity act
 7. A new donor purchases PCS from that receiver through a new direct payment. The sequence continues.
 
 The first purchase already helps the initial selling receiver. An onward gift transfers internal PCS; the next receiver obtains external money when another buyer pays them. The flow depends on continued donor participation rather than a promise of guaranteed redemption.
-
-## Worked example: two fresh payments, the same 100 PCS
-
-1. Donor A pays Receiver A a confirmed net value of 100 USDT; Receiver A transfers 100 PCS to Donor A.
-2. Donor A donates those same 100 PCS to Receiver B. No fresh external money is paid at this step.
-3. Donor B pays Receiver B a fresh confirmed net value of 100 USDT; Receiver B transfers those same 100 PCS to Donor B.
-
-The receivers have received **200 USDT net assistance from two fresh payments**, while **the same 100 PCS circulates**. Internal circulation is recorded separately and is not counted again as new money received. Participants may use an available local-currency method; each purchase is valued from the confirmed net receipt.
 
 ## Value, fees and currency
 

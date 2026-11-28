@@ -6,7 +6,7 @@ This map describes the full repository package. The implementation remains appro
 
 | Item | Purpose |
 | --- | --- |
-| [README.md](../README.md) | Staged public explanation and fourteen core visuals. |
+| [README.md](../README.md) | Staged public explanation and fifteen core visuals. |
 | [codes/](../codes/) | Preserved Python application baseline. |
 | [templates/](../templates/) | Twenty-nine prototype Jinja2 interface templates. |
 | [assets/](../assets/) | Fourteen core PNG visuals, the official ECS digital name card and editable diagrams. |
@@ -91,7 +91,7 @@ Git metadata is not included in the ZIP; an existing checkout retains its own hi
 
 ## Image assets
 
-The cover uses the existing [Perfect-Charity-System.png](../assets/Perfect-Charity-System.png) path. Assets 02–14 retain their stable filenames from the latest image collection. The official digital card is [ECS-Official-Digital-Name-Card.jpeg](../assets/ECS-Official-Digital-Name-Card.jpeg).
+The cover uses the existing [Perfect-Charity-System.png](../assets/Perfect-Charity-System.png) path. Assets 02–14 retain their stable filenames. The new [15-profile-activity-example.png](../assets/15-profile-activity-example.png) shows separate individual and charity-organisation donations, locations, volunteering and paid work using generic labels. The official digital card is [ECS-Official-Digital-Name-Card.jpeg](../assets/ECS-Official-Digital-Name-Card.jpeg).
 
 Seven editable SVG explanatory panels are in [assets/diagrams/](../assets/diagrams/). Their PNG exports are the versions shown in the README. See [Image plan](image-plan.md).
 

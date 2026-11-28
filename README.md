@@ -4,464 +4,492 @@
 
 # Perfect Charity System (PCS)
 
-**A blockchain-based charity system that connects donors directly with people in need and keeps a transparent record of their contributions.**
+**Direct assistance. A traceable contribution. A continuing cycle.**
 
-Perfect Charity System is an initiative by **Elite Cybersecurity Specialist**. It is designed to eliminate charity crimes through direct donations, blockchain records and public accountability. The goal is to build the world’s most transparent charity system and minimise global poverty by working together, without raising a single sword. The platform is designed to be simple for everyone to use.
+Perfect Charity System is an initiative by **Elite Cybersecurity Specialist**. The concept was created by **Yuhisern Navaratnam**, with the ambition to achieve the most transparent charity system ever made and minimise world poverty through cooperation, without raising a single sword. Its logic has been refined over ten years.
 
-**Everyone has a profile. Donors can choose public or private profiles. Receiver profiles are strictly public.** Profiles bring together photographs, videos, donations, volunteering and participation in charity projects.
+> **The strength is the logical flow.**
+>
+> Direct payments, approved Receivers, public contribution histories, internal PCS, separate funding and accountable oversight work together. The objective is to eliminate charity crimes while keeping participation simple.
 
-> **Self-funded · Approximately 5% complete.** This README explains the intended PCS system. The repository contains the prototype source, sample interfaces and project documentation. Development is continuing.
+**Self-funded · Approximately 5% complete.** This README describes the intended operating model. The repository contains prototype code and sample interfaces; completing and validating that implementation is continuing work.
 
-**Read the full website explanation:** [Perfect Charity System on the ECS blog](https://elite-cybersecurity-specialist.blogspot.com/2026/11/perfect-charity-system.html)
+[Logical flow](#logical-flow) · [Profiles](#profiles) · [Seven categories](#receivers) · [Direct payments](#direct-payments) · [Continuing cycle](#continuing-cycle) · [Allocation](#allocation) · [Funding](#funding) · [Governance](#governance) · [Eleven abuses](#eleven-abuses) · [Oversight](#oversight) · [Development](#development) · [FAQs](#faqs)
 
-## The strength is the logical flow
+<a id="logical-flow"></a>
+<a id="12-how-the-rules-work-together"></a>
+<a id="10-how-the-prevention-rules-work-together"></a>
 
-- **Direct assistance:** money reaches the approved receiver through the donor’s chosen external payment provider.
-- **A traceable contribution:** confirmed receipt links the real payment to the corresponding PCS transfer and contribution history.
-- **A continuing cycle:** the donor can pass the same PCS onward; the next buyer makes a fresh payment to the next receiver.
+## 1. The strength is the logical flow
 
-![Seven connected protections: verified receivers, direct payments, monthly limits, separate funding, public records, disclosed earnings and accountable oversight](assets/14-prevention-through-logical-flow.png)
+The three central principles connect the entire system:
 
-[Profiles](#1-everyone-has-a-profile) · [Blockchain records](#2-blockchain-records-connect-the-system) · [Who receives help](#3-who-can-receive-assistance) · [Eleven abuses and public challenge](#4-the-charity-abuses-pcs-is-designed-to-address) · [Monthly PCS](#5-monthly-pcs-allocation) · [Direct payments](#6-how-donors-pay-receivers-directly) · [The donation cycle](#7-how-the-pcs-donation-cycle-continues) · [Funding](#8-three-separate-funding-purposes) · [External Services](#9-external-services-and-volunteering) · [Governance](#10-directors-and-public-earnings) · [Oversight](#11-verification-and-country-inspectors) · [Connected protections](#12-how-the-rules-work-together) · [Build requirements](#five-simple-build-requirements) · [Vision and development](#13-the-vision-and-development) · [Questions](#14-frequently-asked-questions)
+- **Direct assistance:** the Donor pays the selected Receiver through an available external bank or payment provider.
+- **A traceable contribution:** actual payment receipt is confirmed, the related PCS transfer is recorded, and the activity is linked to the relevant profiles.
+- **A continuing cycle:** the Donor can give that PCS to another approved Receiver, who can receive a fresh direct payment from the next buyer.
 
+![The connected PCS protections: verified Receivers, direct payments, monthly allocations, separate funding, public records, disclosed earnings and recorded oversight](assets/14-prevention-through-logical-flow.png)
+
+Every stage gives the next stage something to verify:
+
+| Stage | Connected protection |
+| --- | --- |
+| A Receiver joins. | A PCS representative interviews, verifies and approves the Receiver before the team creates the account. |
+| A Donor chooses whom to support. | Public Receiver profiles show their introduction, location and contribution history. |
+| Money is paid. | The external provider sends it directly to the Receiver's designated destination. |
+| PCS is released. | Actual receipt is confirmed; one external payment authorises one completed transfer from Receiver to Donor. |
+| PCS is donated onward. | A separate internal transfer is recorded. Another buyer's fresh payment provides the next external assistance. |
+| Operating or project work is paid. | Its funding purpose, work, rate and amount are disclosed. Directors remain prohibited from profiting. |
+| An exceptional or privileged action occurs. | Its reason, approving actor and linked records remain reviewable. |
+
+For a Donor, the experience stays simple: **choose a Receiver → pay directly → upload evidence → receive confirmed PCS → donate it onward.**
+
+<a id="profiles"></a>
+<a id="1-everyone-has-a-profile"></a>
 <a id="5-a-public-charity-profile"></a>
 
-## 1. Everyone has a profile
+## 2. Everyone has a profile
 
-The public participants in PCS are called **Donors** and **Receivers**. Everyone has a profile so that people can understand whom they are helping and see a record of charitable activity.
+The public participants are called **Donors** and **Receivers**. Profiles connect people with their charitable activity, giving practical service and financial support a visible history.
 
-| Profile | Visibility | What it shows |
-| --- | --- | --- |
-| **Donor** | Public or private, chosen by the donor. | The donor’s introduction, contributions, volunteering and participation in charity projects, subject to the profile’s visibility setting. |
-| **Receiver** | Strictly public. | The approved receiver’s name, photographs, video, contributions received and charity activities. |
+### Donors: public or private
 
-People can share photographs and videos, introduce themselves and document their charity work. Their profiles can show:
+Donors choose whether their profile is public or private. A public profile can show whom they supported, their volunteering and their charity project participation.
 
-- **Donations:** whom they helped and the contributions recorded through PCS.
-- **Help received:** who supported the receiver and the assistance recorded.
-- **Volunteering:** activities, service and achievements.
-- **Charity projects:** participation in projects listed under **External Services**.
+A private Donor profile restricts access to that profile. **Contributions remain visible in the Receiver's contribution history, and all required PCS-related earnings remain publicly disclosed.**
 
-![Donor and receiver profiles, privacy choices, contribution histories and volunteer achievements](assets/08-charity-profiles.png)
+### Receivers: public only
 
-Receiver contribution histories show who donated to them. A donor’s private profile restricts access to that profile; it does not remove contributions from receiver histories or remove the duty to disclose PCS-related earnings.
+Receiver profiles are **always public**. They include the approved name, location, photographs, video, support received and relevant charity activities. Their history shows who donated to them.
 
-Financial contributions and volunteer achievements are displayed separately. Both deserve recognition, and readers should be able to tell them apart.
+Receivers cannot create their own assistance accounts. A representative interviews and verifies them, and the internal team creates the approved account. The team also assists Receivers who need help using PCS.
 
-## 2. Blockchain records connect the system
+**Race and religion are not profile fields or assistance categories.**
 
-**Blockchain provides the transaction history for PCS.** It connects recorded PCS transfers with confirmed payments and the participants involved.
+![Public-only Receiver profiles, Donor visibility choices and distinct charity activity records](assets/08-charity-profiles.png)
 
-The process is straightforward:
+### One profile, distinct kinds of contribution
 
-1. A donor pays an approved receiver through an available external payment provider.
-2. The receiver or authorised PCS team confirms that the payment was received.
-3. The corresponding PCS transfer is recorded in the blockchain history.
-4. Further PCS donations create further recorded transactions.
+Profiles can show:
 
-```mermaid
-flowchart TD
-    A["Donor pays the receiver directly"] --> B["Payment received and confirmed"]
-    B --> C["PCS transferred to the donor"]
-    C --> D["PCS transaction recorded on the blockchain"]
-    C --> E["Donor gives PCS to the next receiver"]
-    E --> D
-    E --> F["Another donor pays that receiver"]
-    F --> B
-    D --> G["Transaction linked to contribution history"]
-```
+- **Donations to individuals:** the Receiver, location, amount, purpose and linked contribution record.
+- **Donations to charity organisations:** the approved organisation, location, amount, purpose and its own linked contribution record.
+- **Help received:** who provided support and the assistance recorded.
+- **Unpaid volunteer work:** the activity, organisation or project, service time and volunteer achievement.
+- **Paid charity services:** the charity or project, work performed, applicable period, rate, hours or units, amount paid and linked record.
+- **Project participation:** roles, work, updates and achievements under PCS.
 
-**Money and PCS have different roles.** Banks and external payment providers process money directly to the receiver. PCS records the charity workflow and the internal PCS transactions connected to it.
+![Illustrative PCS profile with separate donations to Example Individual Name and Example Charity Organization, generic city and country locations, unpaid volunteering and paid work](assets/15-profile-activity-example.png)
 
-<a id="what-the-internal-coin-means"></a>
+The example uses **generic participant and location labels**. It shows two separate donation records: **100 PCS to an individual** and **200 PCS to a charity organisation**. Its volunteer record shows **three unpaid hours**; a different work record shows **five hours at USD 20 per hour, totalling USD 100**. These are sample entries for understanding the profile layout.
 
-PCS is the system’s internal charity unit, sometimes called **“dead crypto”**. It can be purchased from approved receivers and donated within PCS. It cannot be traded on an external cryptocurrency exchange.
+Someone can volunteer on one occasion and receive legitimate payment for different work on another. Each activity has its own record. **A donation, volunteered time, assistance received and a service payment are never merged into one unexplained contribution or earnings total.**
 
-The valuation reference is **1 PCS = 1 USDT**. Participants can use an available local-currency payment method; they do not have to pay in USDT. The PCS amount follows the confirmed value received after any provider deductions.
-
-The reference describes the unit’s value within this model. It does not mean that every allocation is backed by a USDT reserve or can be redeemed through an outside exchange.
-
-### Transaction history stays intact
-
-The original transaction remains in the history. If management approves a correction, it uses a **new recorded PCS transfer** back to the donor, without a PCS return-transfer charge. The reason and approval are linked to the original record.
-
-Any handling of the original external payment follows the payment provider’s process and is recorded separately.
-
+<a id="receivers"></a>
+<a id="3-who-can-receive-assistance"></a>
 <a id="3-the-seven-individual-receiver-categories"></a>
 
 ## 3. Who can receive assistance
 
-Individual receivers belong to one of these seven categories:
+Individuals can be approved under seven categories:
 
-| Category | Who it includes |
-| --- | --- |
-| **1. Disabilities or special conditions since birth** | People born with disabilities or special conditions. |
-| **2. Acquired physical disabilities** | People who became physically challenged. |
-| **3. Serious diseases** | People suffering from serious diseases. |
-| **4. Abandoned elderly or homeless individuals** | Older or homeless people needing assistance. |
-| **5. Orphans under 21** | Young people without parental care, below the age of 21. |
-| **6. Single mothers** | Unmarried, low-income mothers with children. |
-| **7. Verified refugees** | Refugees with verified good conduct and behaviour. |
+1. **Disabilities or special conditions since birth** — people born with disabilities or special conditions.
+2. **Acquired physical disabilities** — people who became physically disabled.
+3. **Serious diseases** — people suffering from serious diseases.
+4. **Abandoned elderly or homeless individuals** — older or homeless people needing assistance.
+5. **Orphans under 21** — young people without parental care, below the age of 21.
+6. **Single mothers** — unmarried, low-income mothers with children.
+7. **Verified refugees** — refugees with verified good conduct and behaviour.
 
-![The seven individual receiver categories and the interview and approval requirements](assets/05-seven-receiver-categories.png)
+![The seven individual Receiver categories and the interview and approval requirements](assets/05-seven-receiver-categories.png)
 
-**Receivers must be interviewed and approved by a PCS representative before an assistance account is opened.** Their profiles are public and include their name, photographs and video. The internal team helps people who cannot participate independently.
+**Approved charity organisations can also receive donations.** They are separate from the seven individual eligibility categories and must accept PCS transparency requirements and operating practices.
 
-**Race and religion are not profile fields or assistance categories.**
+Interview-based verification is central to onboarding. The team establishes that the Receiver is real, verifies the applicable circumstances and obtains the required profile material before creating the account. Biometrics are not a prerequisite of this model.
 
-Approved existing charity organisations can also receive support. They are considered separately from the seven individual categories and must accept PCS operating rules and transparency requirements.
-
-<a id="1-the-charity-abuses-pcs-is-designed-to-address"></a>
-
-<a id="11-the-charity-abuses-pcs-is-designed-to-address"></a>
-
-## 4. The charity abuses PCS is designed to address
-
-The PCS team has researched **11 forms of charity crime and abuse**, including how registered charity organisations can exploit loopholes to divert donations, conceal earnings and benefit the people controlling the money.
-
-These abuses harm donors and the vulnerable people they intended to help. Charity should provide assistance, dignity and opportunity.
-
-**Perfect Charity System is designed to eliminate these abuses through direct donations, blockchain records, public accountability and strict financial rules.** Public support is essential to build the system, put it into practice and uphold its standards.
-
-People who investigate financial abuse and challenge established practices must be able to work safely and independently. We ask the public to support our team’s safety, privacy and freedom from intimidation as we develop PCS.
-
-**If we do not take action, who will?**
-
-### A public challenge
-
-**We welcome a public challenge.** If you have a better solution, present it openly. Explain how it addresses these eleven abuses, protects receivers, keeps assistance separate from running expenses and makes charitable spending traceable. We welcome constructive criticism that helps improve the system.
-
-PCS is currently **self-funded and 5% complete**. Supporting its development means sharing the concept, examining its rules and contributing the skills needed to build, test and maintain it.
-
-### Abuses 1–4
-
-![Profiting from donations, commission-based fundraising, ghost payrolls and hidden procurement kickbacks](assets/02-charity-abuses-01-04.png)
-
-| Abuse | How it happens | The PCS response |
-| --- | --- | --- |
-| **1. Profiting from donations** | Assistance is diverted into personal enrichment. | Direct receiver payments, separate operating funding and the directors’ no-profit rule. |
-| **2. Commission-based fundraising** | A percentage is taken before help reaches the receiver. | PCS takes no fundraising commission or transaction cut. |
-| **3. Fake employees and ghost payrolls** | Invented workers are used to drain charity funds. | Approved work, staff payments and relevant earnings must be identifiable and disclosed. |
-| **4. Hidden procurement kickbacks** | Secret payments and inflated costs benefit connected people. | Suppliers, costs, relationships and relevant earnings must be recorded and reviewed. |
-
-### Abuses 5–8
-
-![Exploitation of vulnerable people, cryptocurrency misuse, lavish fundraising events and money laundering](assets/03-charity-abuses-05-08.png)
-
-| Abuse | How it happens | The PCS response |
-| --- | --- | --- |
-| **5. Exploitation of vulnerable people** | People are used to raise money that others keep. | Interviewed receivers have their own public profiles, direct assistance and support from the internal team. |
-| **6. Cryptocurrency misuse** | Charity assets are diverted into personal speculation. | Internal PCS remains within the charity workflow and is not traded on outside exchanges. |
-| **7. Lavish fundraising events** | Event costs consume money intended for assistance. | Receiver assistance does not pay running or event costs; separately funded spending remains accountable. |
-| **8. Money laundering through charity** | Charitable channels are used to disguise illicit funds. | Verified participants, actual payment checks, recorded transactions and authorised inspection support investigation and enforcement. |
-
-### Abuses 9–11
-
-![Profiteering through charity structures, external payment deductions and sexual exploitation linked to fundraising](assets/04-charity-abuses-09-11.png)
-
-| Abuse or loss | How it happens | The PCS response |
-| --- | --- | --- |
-| **9. Profiteering under charity structures** | A charity organisation is used for private enrichment. | Partners must accept transparency requirements, disclose relevant earnings and follow the directors’ prohibition where applicable. |
-| **10. Third-party payment deductions** | External provider charges reduce the amount received. | Show the charges clearly and calculate PCS from the confirmed amount received. PCS takes no transaction cut. |
-| **11. Sexual exploitation linked to fundraising** | Fundraising or aid relationships are used to exploit people. | Exploitation is prohibited; safeguarding, reporting and investigation form part of the operating practices. |
-
-External payment-provider fees are costs and are not automatically crimes. They should be clearly identified when the donor chooses a payment method.
-
-<a id="4-monthly-limits-and-evidence-backed-exceptions"></a>
-
-<a id="4-monthly-pcs-allocation"></a>
-
-## 5. Monthly PCS allocation
-
-**The standard monthly receiver allocation is 10,000 PCS, using the 1 PCS = 1 USDT valuation reference.**
-
-A receiver who needs additional PCS must:
-
-1. Explain the need.
-2. Provide supporting documents or other evidence.
-3. Receive approval following a review.
-
-The request, reason, evidence, decision and additional allocation must be recorded.
-
-![The 10,000 PCS monthly allocation and the steps for requesting additional PCS](assets/13-monthly-allocation.png)
-
-The monthly allocation, the receiver’s accumulated PCS balance and the money received are separate records. Receivers can hold an accumulated PCS balance. Money reaches a receiver when a donor makes a confirmed purchase.
-
-The prototype contains monthly credit and manual addition functions. The complete request, evidence and approval process still needs to be finished and tested.
-
-<a id="2-follow-the-complete-donation-cycle"></a>
+<a id="direct-payments"></a>
+<a id="2-blockchain-records-connect-the-system"></a>
+<a id="6-how-donors-pay-receivers-directly"></a>
+<a id="5-how-donors-pay-receivers-directly"></a>
 <a id="first-a-donor-helps-a-receiver-directly"></a>
 
-<a id="5-how-donors-pay-receivers-directly"></a>
+## 4. How Donors pay Receivers directly
 
-## 6. How donors pay receivers directly
+### Choose, pay, confirm and record
 
-### Step 1: Choose a receiver
+1. **Choose an approved Receiver.** Read the public profile of an individual or charity organisation, including their location, needs and contribution history.
+2. **Choose an available payment method.** Use the Receiver's supported bank or external provider, such as PayPal, Payoneer or Stripe, where available and suitable for that Receiver.
+3. **Pay the Receiver directly.** The provider processes the payment to the designated Receiver account. PCS does not build or operate its own fiat payment gateway.
+4. **Upload the receipt and confirm actual receipt.** The Receiver or authorised PCS team checks the payment received against the submitted evidence.
+5. **Complete the PCS transfer.** The corresponding internal PCS moves **from the Receiver's balance to the Donor's balance**. The purchase, balances, transaction history and profile contribution record must agree.
 
-Read the public profile of an approved individual or charity organisation. Review their introduction, needs and contribution history.
+![Direct payment through an external provider, actual receipt confirmation and a corresponding Receiver-to-Donor PCS transfer](assets/06-direct-payments.png)
 
-### Step 2: Choose a payment method
+> **PCS takes no fundraising commission or transaction cut. External bank or provider charges may apply and must be visible.**
 
-Choose an available bank or external payment provider, such as PayPal, Stripe or Western Union, where supported.
+A conventional bank account is not a universal PCS requirement. A Receiver can use an eligible supported external payment account. The internal team helps with participation and account setup where needed; availability depends on the provider and location.
 
-> **Your bank or payment provider may charge a fee. PCS takes no commission.**
+<a id="what-the-internal-coin-means"></a>
 
-### Step 3: Pay the receiver
+### Money and internal PCS have different roles
 
-The external provider processes the payment to the receiver’s designated account. PCS does not operate its own fiat payment gateway.
+PCS is the internal charity unit, sometimes called **"dead crypto"**. It can be purchased from approved Receivers and donated within PCS. **It cannot be traded on an external cryptocurrency exchange.**
 
-### Step 4: Submit the receipt and confirm payment
+The valuation reference is **1 PCS = 1 USDT**. Participants can pay through an available local-currency method; payment in USDT is not mandatory. The PCS amount follows the confirmed net value received after external deductions.
 
-Upload the payment evidence through PCS. The receiver or authorised PCS team checks that the money was actually received.
+The reference is an internal valuation rule. It does not imply a USDT reserve backing every allocation or an external redemption facility. Original currency, provider charges, conversion source, rate, rate time, net receipt and resulting PCS amount must be recorded distinctly. A single published conversion policy remains an implementation decision.
 
-### Step 5: Transfer PCS to the donor
+### One payment, one completed release
 
-After confirmation, the corresponding PCS moves from the receiver’s balance to the donor’s balance. The amount follows the confirmed value received after any external deductions.
+**The same external payment cannot obtain PCS twice.** Match the original provider transaction reference, original payment time, amount and destination. The receipt-upload time is a separate field; uploading an old receipt again does not create a fresh payment.
 
-![Choose a receiver, pay directly, confirm payment and record the corresponding PCS transfer](assets/06-direct-payments.png)
+The implementation must complete the purchase status, Receiver and Donor balances and ledger entry together, and safely return the existing result if the same completed purchase is submitted again. The [five simple build requirements](#five-build-requirements) keep this rule concrete.
 
-**The same external payment cannot be used twice to obtain PCS.** The payment reference, original payment time, amount and destination must be checked. Uploading the same receipt again does not make it a new payment.
-
-The original payment time and the receipt upload time are different records. Fees, the original currency, any conversion rate and the resulting PCS amount must also be clear.
-
-### One real payment. One completed release.
-
-Match the original external transaction identity, payment time, receiver destination, currency and confirmed net value. A different receipt filename or upload time does not create another payment.
-
-The purchase status, receiver and donor balances, and ledger entry must complete together. Repeating a confirmation must not release the same PCS twice. Record the confirming person and time alongside the evidence and transaction.
-
-Sensitive changes to a receiver’s payment destination require a recorded, independent review. Preserve the destination used for each purchase.
-
+<a id="continuing-cycle"></a>
+<a id="7-how-the-pcs-donation-cycle-continues"></a>
+<a id="6-how-the-pcs-donation-cycle-continues"></a>
+<a id="2-follow-the-complete-donation-cycle"></a>
 <a id="then-the-donor-can-pass-assistance-onward"></a>
 
-<a id="6-how-the-pcs-donation-cycle-continues"></a>
+## 5. How the PCS donation cycle continues
 
-## 7. How the PCS donation cycle continues
-
-Buying PCS already helps the receiver who receives the direct payment. The donor can then pass the PCS to another approved receiver, allowing another donor to continue the cycle.
+Buying PCS already helps the Receiver who receives the direct payment. The Donor can then give the PCS to another approved individual or charity organisation, allowing another buyer to continue the cycle.
 
 1. **Donor A buys PCS from Receiver A.** Donor A pays Receiver A directly. After confirmation, Receiver A transfers the corresponding PCS to Donor A.
-2. **Donor A donates PCS to Receiver B.** Receiver B now has those units available to sell.
-3. **Donor B buys PCS from Receiver B.** Donor B makes a new direct payment to Receiver B. After confirmation, the corresponding PCS transfers to Donor B.
-4. **Donor B can donate PCS onward.** The cycle can continue with another receiver and another donor.
+2. **Donor A donates that PCS to Receiver B.** Receiver B now holds those units and can make them available to another buyer.
+3. **Donor B buys PCS from Receiver B.** This is a **fresh external payment** directly to Receiver B. After confirmation, the PCS transfers from Receiver B to Donor B.
+4. **Donor B can donate PCS onward.** The sequence continues with further Receivers and fresh payments from buyers.
 
-![The continuing cycle of direct payments and onward PCS donations](assets/07-pcs-cycle.png)
+![The continuing cycle of direct external payments, confirmed PCS purchases and onward PCS donations](assets/07-pcs-cycle.png)
 
 <a id="a-simple-example"></a>
 
-### One simple example
+### Two fresh payments, 200 USDT assistance, the same 100 PCS
 
-In this example, each purchase has a confirmed net value of **100 USDT**. Participants may make the actual payment in local currency through their chosen provider.
+Each purchase in this example has a confirmed **net value of 100 USDT**. The actual payment can use a supported local currency and provider.
 
-| Step | Money received | PCS transferred |
+| Event | Fresh money received | Internal PCS movement |
 | --- | --- | --- |
-| Donor A purchases from Receiver A. | Receiver A receives a net value of 100 USDT. | Receiver A transfers 100 PCS to Donor A. |
-| Donor A donates to Receiver B. | No new money payment occurs at this step. | Donor A gives the 100 PCS to Receiver B. |
-| Donor B purchases from Receiver B. | Receiver B receives a fresh net value of 100 USDT. | Receiver B transfers the 100 PCS to Donor B. |
+| Donor A buys from Receiver A. | Receiver A receives 100 USDT net value. | Receiver A → Donor A: 100 PCS. |
+| Donor A donates to Receiver B. | No additional external payment at this step. | Donor A → Receiver B: the same 100 PCS. |
+| Donor B buys from Receiver B. | Receiver B receives a fresh 100 USDT net value. | Receiver B → Donor B: the same 100 PCS. |
 
-**The two receivers have received a total net value of 200 USDT from two separate purchases.** The internal PCS transfers have their own records and are not counted again as additional money received.
+**Two Receivers have received 200 USDT net assistance through two fresh purchases, while the same 100 PCS circulates.** The internal transfers have their own records and are not counted again as new cash assistance.
 
-**Two fresh payments provide 200 USDT net assistance, while the same 100 PCS circulates between participants:** Receiver A → Donor A → Receiver B → Donor B. The onward PCS donation does not create another external money payment.
+Each new external payment comes from the next buyer. Allocating or holding PCS alone does not create cash or guarantee when another buyer will participate.
 
-Each new payment comes from the next buyer. A receiver receives money when another donor purchases PCS from them.
+<a id="allocation"></a>
+<a id="5-monthly-pcs-allocation"></a>
+<a id="4-monthly-pcs-allocation"></a>
+<a id="4-monthly-limits-and-evidence-backed-exceptions"></a>
 
+## 6. Monthly PCS allocation
+
+**The standard monthly Receiver allocation is 10,000 PCS**, with **1 PCS = 1 USDT** as the valuation reference.
+
+A Receiver needing additional PCS must explain the need, provide supporting evidence and obtain approval. The request, reason, review, decision and resulting additional allocation must be recorded.
+
+![The standard monthly 10,000 PCS allocation, supporting evidence and recorded approval for additional PCS](assets/13-monthly-allocation.png)
+
+The **monthly allocation**, **accumulated PCS balance** and **external assistance received** are separate records. Balances can accumulate. The standard allocation is not a hard ceiling on the total wallet balance or a promise of monthly cash assistance.
+
+The prototype includes monthly credit and manual addition functions. The full evidence-backed additional-allocation workflow remains development work.
+
+<a id="funding"></a>
+<a id="8-three-separate-funding-purposes"></a>
+<a id="7-three-separate-funding-purposes"></a>
 <a id="6-three-separate-funding-purposes"></a>
 
-<a id="7-three-separate-funding-purposes"></a>
+## 7. Separate funding and External Services
 
-## 8. Three separate funding purposes
+PCS keeps three purposes distinct so supporters can see what their contributions fund:
 
-PCS keeps three purposes separate so that people can see what their support pays for.
+- **Direct assistance:** support for individuals in the seven categories and approved charity organisations. Record the assistance, related PCS transfers and contribution histories.
+- **Internal operations:** separately donated support from companies and individuals for hosting, security, maintenance, verification, approved staffing and help for participants. Record the income, spending, payments and available balance.
+- **External Services:** approved practical aid projects and delivery costs. Record the responsible profiles, budget, suppliers, spending, delivery, work payments and relevant earnings.
 
-| Purpose | What it supports | What must be recorded |
-| --- | --- | --- |
-| **Direct assistance** | Individuals in the seven categories and approved charity organisations. | Assistance received, related PCS transactions and contribution histories. |
-| **Internal operations** | Hosting, security, maintenance, verification, approved staff and help for participants. | Separately donated operating support, expenses, staff payments and available balance. |
-| **External Services projects** | Approved physical aid projects and their delivery costs. | Responsible profiles, budgets, suppliers, spending, delivery and relevant earnings. |
+![Direct Receiver assistance, internal operations and External Services have separate funding purposes and records](assets/09-separate-funding.png)
 
-![Receiver assistance, internal operations and external charity projects have separate funding purposes and records](assets/09-separate-funding.png)
+**Donations intended for Receiver assistance do not pay PCS running expenses.** Companies and individuals can donate separately for internal operations. Legitimate work payments use the appropriate separate funding and remain disclosed.
 
-**Money donated to help receivers does not pay PCS running expenses.** Companies and individuals can support internal operations through separate donations.
-
-Approved staff and service providers can be paid for legitimate work from the relevant separate funding. Their work, payments and PCS-related earnings must be disclosed. The model allows properly funded, disclosed staff payments; it does not claim that everyone works without pay.
-
+<a id="9-external-services-and-volunteering"></a>
+<a id="8-external-services-and-volunteering"></a>
 <a id="7-external-operations-and-volunteering"></a>
 
-<a id="8-external-services-and-volunteering"></a>
+### External Services and practical charity work
 
-## 9. External Services and volunteering
+External Services is the section for approved physical aid projects. Examples include food and essentials, medical outreach, shelter and homes, water projects and other approved assistance.
 
-**External Services is the section for approved charity projects and practical assistance.** Projects can include food distribution, medical outreach, shelter, homes, water and other approved aid.
+Each project identifies its purpose, location, responsible profile, budget, supporting records, suppliers, spending and delivery. It also records the people who participated, which work was volunteered and which services were paid.
 
-Each project has:
+![External Services projects for food, medical outreach, shelter and water, with visible budgets and participant records](assets/10-external-operations-volunteering.png)
 
-- A clear purpose and a responsible profile.
-- A budget and supporting documents.
-- Records of suppliers, spending and delivery.
-- Disclosure of relevant payments and participants’ PCS-related earnings.
-- A record of the people who volunteered or participated.
+Photographs, videos and updates help people understand the work. Volunteer achievements and disclosed paid services become part of participants' charity histories. Giving time and giving money both deserve recognition, with clear records showing the difference.
 
-![External charity projects and volunteering, including food, medical outreach, shelter and water](assets/10-external-operations-volunteering.png)
-
-Participation becomes part of the person’s charity achievements on PCS. People can document their work through photographs, videos and project updates. Their profiles recognise practical service alongside financial contributions.
-
+<a id="governance"></a>
+<a id="10-directors-and-public-earnings"></a>
+<a id="9-directors-and-public-earnings"></a>
 <a id="8-directors-cannot-profit-from-donations"></a>
 
-<a id="9-directors-and-public-earnings"></a>
-
-## 10. Directors and public earnings
+## 8. Directors and public earnings
 
 **PCS does not profit from donations. Directors cannot profit from any donation, directly or indirectly.**
 
-This rule covers receiver assistance, internal operating donations and External Services project donations. Connected suppliers, intermediaries or other people cannot be used to bypass it.
+The prohibition covers **Receiver assistance, internal operating support and External Services funding**. Connected suppliers, intermediaries, nominees or other people cannot be used to bypass it. Public disclosure never gives directors permission to profit.
 
-**All participants’ PCS-related earnings must be publicly disclosed through their profiles and relevant records.** A private donor profile does not remove this requirement.
+**All participants' PCS-related earnings must be publicly disclosed through their profiles and relevant records, including for private Donors.**
 
-![Directors cannot profit from donations; PCS-related earnings and separately funded work must be disclosed](assets/11-governance-earnings.png)
+![The directors' direct and indirect no-profit rule, legitimate separately funded work and the required public paid-service fields](assets/11-governance-earnings.png)
 
-Approved staff and providers may receive legitimate payments for their work from the appropriate separate funding. The records must identify the work, payments, project costs and relevant relationships.
+Approved **non-director staff and providers** can be paid for legitimate work from the appropriate separate funding. Each paid service record identifies:
 
-Public disclosure does not give directors permission to profit from donations. Receiver assistance, work-related earnings and expense reimbursements must be identified clearly rather than mixed into one unexplained figure.
+- The charity or project and its location.
+- The person or provider and work performed.
+- The applicable date or work period.
+- The rate and hours, days or units.
+- The total amount paid and payment record.
+- The relevant funding purpose, supporting record and relationships.
 
-No hidden commissions, undisclosed fees or private deductions are permitted. Partners are selected only if they accept the required operating practices.
+Assistance received, work earnings and expense reimbursements must be identifiable. No hidden commissions, undisclosed fees or private deductions are permitted. Partners are selected only if willing to follow the required SOPs and transparency standards.
 
+<a id="eleven-abuses"></a>
+<a id="4-the-charity-abuses-pcs-is-designed-to-address"></a>
+<a id="1-the-charity-abuses-pcs-is-designed-to-address"></a>
+<a id="11-the-charity-abuses-pcs-is-designed-to-address"></a>
+
+## 9. Eleven charity abuses and the PCS response
+
+PCS is designed to eliminate these abuses through the connected operating rules. Each response combines a restriction with records that allow people to check how the rule was followed.
+
+### Abuses 1–4
+
+![Donation profiteering, fundraising commissions, ghost payrolls and hidden procurement kickbacks](assets/02-charity-abuses-01-04.png)
+
+1. **Profiting from donations.** Direct Receiver payments and separate operating support keep assistance from being diverted into PCS running costs or directors' personal enrichment. Relevant earnings remain disclosed.
+2. **Commission-based fundraising.** PCS takes no fundraising commission or transaction cut. Provider charges are shown separately, and the confirmed net receipt determines the corresponding PCS amount.
+3. **Fake employees and ghost payrolls.** Work and payments must identify the person, charity or project, service, period, rate and total paid. Interviewed participants and linked work records make the claim reviewable.
+4. **Hidden procurement kickbacks.** Record the supplier, work or goods, price, related parties, payment and delivery. Connected people cannot bypass the directors' prohibition.
+
+### Abuses 5–8
+
+![Exploitation of vulnerable people, cryptocurrency misuse, lavish fundraising and money laundering through charity](assets/03-charity-abuses-05-08.png)
+
+5. **Exploitation of vulnerable people.** The approved Receiver has their own public profile, direct support and internal-team assistance. Donations must not be collected secretly in someone else's name.
+6. **Cryptocurrency misuse.** Internal PCS stays within the charity workflow and cannot be traded on outside cryptocurrency exchanges. Allocations, internal transfers and fresh external assistance remain distinguishable.
+7. **Lavish fundraising events.** Receiver assistance does not pay event or running costs. Any authorised separately funded spending needs its own purpose, budget and disclosed record.
+8. **Money laundering through charity.** Verified participants, payment destinations, actual receipt checks, transaction history and authorised inspection connect the ledger with the external payment evidence for investigation and enforcement.
+
+### Abuses 9–11
+
+![Profiteering through charity organisations, external payment deductions and sexual exploitation linked to fundraising](assets/04-charity-abuses-09-11.png)
+
+9. **Profiteering under charity structures.** Only approved organisations that accept PCS SOPs can participate. Relevant collections, spending, work payments, relationships and earnings must be transparent.
+10. **Third-party payment deductions.** External banks and providers can charge fees. PCS exposes those charges and uses the confirmed net receipt; it takes no platform cut. Ordinary disclosed provider charges are costs, not automatically crimes.
+11. **Sexual exploitation linked to fundraising.** Exploitation, coercion and using vulnerable people for private gain are prohibited. Safeguarding, reporting, recorded activity and investigation form part of the operating practices.
+
+<a id="public-challenge"></a>
+
+### A public challenge
+
+**We welcome a public challenge.** If you have a better solution, present it openly. Explain how it addresses these eleven abuses, protects Receivers, keeps assistance separate from expenses and makes charitable spending traceable. Constructive examination helps strengthen the system.
+
+People investigating financial abuse must be able to work safely and independently. We ask the public to support the team's safety, privacy and freedom from intimidation as PCS develops.
+
+**If we do not take action, who will?** Sharing the concept, examining its logic and contributing skills can help turn the intended model into a maintained service.
+
+<a id="oversight"></a>
+<a id="11-verification-and-country-inspectors"></a>
+<a id="10-verification-and-country-inspectors"></a>
 <a id="9-country-inspectors-and-recorded-accountability"></a>
 
-<a id="10-verification-and-country-inspectors"></a>
+## 10. Recorded collections and country inspectors
 
-## 11. Verification and country inspectors
+**Each country can have only one inspector account. Its privileged actions must be recorded.**
 
-**Each country can have only one inspector account. Its actions must be recorded.**
+Inspector accounts are restricted oversight accounts for authorised government and law-enforcement inspection. Their public profiles can be hidden while their actions remain available to authorised review. A country inspector account is separate from the team roles that help Receivers or review exceptional requests.
 
-Inspector accounts are restricted oversight accounts, separate from public donor and receiver profiles. They are intended to support authorised government and law-enforcement inspection. Keeping an inspector’s profile hidden from the public does not hide its actions from authorised review.
-
-The internal team helps receivers under assigned permissions. Management can review exceptional actions without creating a second inspector account for the country.
-
-![Receiver approval, payment checks, recorded history, matching financial records and one inspector per country](assets/12-verification-oversight.png)
+![Receiver verification, payment checks, recorded history, reconciliation and one recorded inspector account per country](assets/12-verification-oversight.png)
 
 <a id="every-authorised-collection-follows-the-pcs-workflow"></a>
 
-### All authorised collections follow PCS
+### Every authorised collection follows PCS
 
-Banks and external providers process the payments, while the charitable activity follows the PCS workflow and is recorded through PCS.
+Banks and external providers process the money. **The charitable collection must still follow the PCS workflow and be linked to the PCS records.** Direct payment describes where the money goes; it does not permit unrecorded side collections.
 
-Representatives and partners must not collect unrecorded cash, accept undisclosed side payments or run separate charity collections outside this workflow. **PCS treats such unauthorised collections as theft under its operating rules.** Breaches are grounds for investigation, suspension and removal, with the relevant records preserved.
+Representatives and partners cannot accept unrecorded cash, undisclosed side payments or separate collections outside the authorised workflow. **PCS treats unauthorised collections as theft under its operating rules**, with investigation, suspension or removal and preservation of the relevant evidence.
 
 <a id="evidence-connects-the-ledger-to-real-events"></a>
 
-### Check that the records agree
+### Evidence and transaction history agree
 
-Payment evidence, actual receipt confirmation, PCS transactions and project spending must be checked against one another. This helps identify missing money, repeated payment claims and unexplained differences.
+Match external payment evidence, actual receipt confirmation, PCS transfers, balances, allocations and project spending. Receiver approval, extra allocations, payment-destination changes, corrections and inspector actions need identifiable linked records.
 
-Receiver approval, additional allocations, corrections and inspector actions must also have identifiable records. The original transaction stays in the history when a correction is made.
+The intended blockchain history preserves original transactions. An approved correction uses a **new linked PCS transfer**, with its reason and approval recorded and no PCS return-transfer charge. Any handling of the original external payment follows the external provider's process and is recorded separately.
 
-<a id="10-how-the-prevention-rules-work-together"></a>
+<a id="five-build-requirements"></a>
 
-## 12. How the rules work together
+### Five simple build requirements
 
-**The protections work as one connected system.** Each step gives the next step something to check.
+The operating logic needs these concrete implementation properties:
 
-| What happens | The rule that provides accountability |
-| --- | --- |
-| A person seeks help. | A representative interviews and approves the receiver’s public profile. |
-| PCS is allocated. | The monthly amount is defined; additional requests require a reason, evidence and recorded approval. |
-| A donor chooses a receiver. | The receiver’s information and contribution history help the donor make an informed choice. |
-| Money is paid. | The chosen external provider processes it directly to the receiver’s designated account. |
-| PCS is transferred after payment. | Actual receipt is confirmed, and the same payment cannot be used for another completed transfer. |
-| PCS is donated onward. | The transfer is recorded; the next money payment comes from another buyer. |
-| Staff or project costs are paid. | The correct funding purpose, costs and relevant earnings must be disclosed. Directors still cannot profit. |
-| An inspector acts. | The action is recorded and available for authorised review. |
+1. **One payment, one completion.** Match the original payment, stop duplicate releases and complete the purchase, balances and ledger together.
+2. **Verified payment destinations.** Link each destination to the approved Receiver and record any authorised destination change.
+3. **Protected inspector access.** Enforce one country account, controlled access and an attributable privileged-action history.
+4. **Recorded exceptional approvals.** Additional PCS and corrections require the reason, supporting evidence, decision and approving actor. No approval overrides the directors' no-profit rule.
+5. **Verifiable transaction history.** Validate the ledger's links, preserve independently checkable history and reconcile it with balances and external evidence.
 
+The source contains parts of these workflows. Their full enforcement and end-to-end validation belong to the remaining implementation, described in [Simple controls](documentation/pcs-simple-controls.md) and [Development status](documentation/development-status.md).
 
-For the donor, participation stays simple: **choose a receiver, pay directly, submit the receipt, receive confirmed PCS and optionally donate it onward.**
-
-<a id="what-makes-this-approach-distinctive"></a>
-
-PCS brings direct assistance, public charity histories, volunteer achievements, separate operating support, earnings disclosure and recorded oversight into one model. Its long-term ambition is to set a world-record standard for charitable transparency through an operating system and results people can examine.
-
-## Five simple build requirements
-
-Keep participation simple. Enforce the connected rules at the points where money, balances or authority can change.
-
-1. **Unique payment; one completion.** Use the real external transaction identity. Complete the purchase, balances and ledger together; block duplicate releases.
-2. **Verified payment destinations.** Verify the receiver’s account. Preserve the destination for each purchase. Record and independently review sensitive changes.
-3. **Protected country inspector.** Enforce one inspector per country, protect access with multi-factor authentication and keep an attributable action history for authorised review.
-4. **Evidence for exceptional decisions.** Require reasons, supporting documents and management review for extra PCS, sensitive changes and related-party costs.
-5. **One verifiable transaction history.** Validate the hash-linked ledger, keep independent checkpoints and recoverable backups, and reconcile payments, PCS and spending.
-
-Before launch, publish one conversion policy and retain each rate’s source and time. The final conversion source remains an implementation decision.
-
+<a id="development"></a>
+<a id="13-the-vision-and-development"></a>
 <a id="12-development-and-repository"></a>
-
-## 13. The vision and development
-
-Yuhisern Navaratnam conceived Perfect Charity System in his early twenties. Now 38, he knows the people he will bring into the future NGO to build, execute and maintain this revolutionary system.
-
+<a id="what-makes-this-approach-distinctive"></a>
 <a id="the-intended-social-impact"></a>
 
-The aim is to make overlooked people easier to find and support, give donors a clear record of their help and recognise people who give their time and skills to charity.
+## 11. Vision and development
 
-**PCS is self-funded and approximately 5% complete.** The future NGO, operating model and intended features are part of the development vision.
+PCS brings direct assistance, public Receiver histories, internal PCS circulation, volunteer achievements, disclosed paid work, separate funding and recorded oversight into one model. The aim is to help overlooked people be noticed and supported, recognise practical service and make the use of charitable support understandable.
 
-The repository contains prototype code and sample interfaces for registration, profiles, purchase requests, receipts, confirmation, wallets, transaction records, monthly PCS credits, manual additions, projects and inspector tools. Integration, enforcement of the full operating rules and testing remain development work.
+**PCS is self-funded and approximately 5% complete.** The intended operating model is the direction for development. The current prototype includes profiles, purchase requests, receipts, confirmation, wallet fields, a simple private hash-linked ledger, monthly credits, manual additions, project interfaces and inspector tools.
 
-### Explore the project
+Completing integration, enforcement of the operating rules, reliable transaction processing and testing remains necessary. The supplied code and interfaces are preserved in this documentation and image release.
 
-| Topic | Documentation |
+### Next priorities
+
+- **Complete the simple participant workflow:** verified Receiver → direct payment → confirmed purchase → recorded PCS transfer → onward donation.
+- **Complete profile accountability:** public-only Receivers, Donor visibility choices, contribution histories, volunteer achievements and mandatory paid-service disclosures.
+- **Finish the five build requirements:** keep the public experience simple while enforcing the connected rules.
+- **Labuan formation:** progress the planned incorporation and governance setup.
+- **Guinness World Records campaign:** pursue the ambition of the most transparent charity system in history through an agreed measurable record category, application and independently reviewable evidence.
+- **Prepare for wider use:** validate reliability, security, multilingual participation and operations as the service grows.
+
+The world-record programme is a development ambition and campaign objective. Its final record title, criteria and recognition follow the record body's application process.
+
+### Explore the repository
+
+| Topic | Reference |
 | --- | --- |
-| Donation cycle and accounting | [PCS model](documentation/pcs-model.md) |
-| Governance and operating rules | [PCS governance](documentation/pcs-governance.md) |
-| Proposed technical safeguards | [Simple controls](documentation/pcs-simple-controls.md) |
-| Implementation work | [Development status](documentation/development-status.md) |
-| Architecture and source responsibilities | [Implementation](documentation/implementation.md) |
+| Donation flow, money and PCS accounting | [PCS model](documentation/pcs-model.md) |
+| Profiles, earnings and financial rules | [PCS governance](documentation/pcs-governance.md) |
+| Minimum implementation safeguards | [Simple controls](documentation/pcs-simple-controls.md) |
+| Current source and remaining implementation | [Development status](documentation/development-status.md) |
+| Architecture and responsibilities | [Implementation](documentation/implementation.md) |
 | Folder and file guide | [File purposes](documentation/filepurpose.md) |
-| Sample interfaces | [templates/](templates/) |
-| Application source | [codes/](codes/) |
-| Local development setup | [Deployment](documentation/deployment.md) |
-| Production preparation | [Production readiness](documentation/production.md) |
-| Existing-checkout update instructions | [Update GitHub](UPDATE-GITHUB.md) |
+| Image order and placement | [Image alignment](documentation/image-plan.md) |
+| Sample interfaces and application source | [templates/](templates/) · [codes/](codes/) |
+| Setup and production preparation | [Deployment](documentation/deployment.md) · [Production preparation](documentation/production.md) |
+| Update an existing checkout | [Update GitHub](UPDATE-GITHUB.md) |
 
-The documentation describes the concept and the work required to complete it. The current source and sample interfaces remain a prototype.
-
+<a id="faqs"></a>
+<a id="14-frequently-asked-questions"></a>
 <a id="11-frequently-asked-questions"></a>
 
-## 14. Frequently asked questions
+## 12. Frequently asked questions
 
-**Can donors choose a private profile?**  
-Yes. Donors choose a public or private profile. Receiver profiles remain strictly public. Private donor profiles do not remove contributions from receiver histories or remove required earnings disclosures.
+<details>
+<summary><strong>Can people support individuals and charity organisations?</strong></summary>
 
-**Can receivers create their own assistance accounts?**  
-A PCS representative must interview and approve the receiver first. The internal team helps people who cannot participate independently.
+Yes. Donors can choose approved individuals or approved charity organisations. Both have public Receiver histories, and the profile example above shows a separate donation to each.
 
-**Why buy PCS instead of only making an ordinary payment?**  
-The purchase helps the receiver directly. It also gives the donor internal PCS that can be donated to another approved receiver, allowing another donor to continue the cycle.
+</details>
 
-**Must donors pay in USDT?**  
-No. Participants choose an available external payment method. The 1 PCS = 1 USDT reference is used to value the internal unit.
+<details>
+<summary><strong>Who creates Receiver accounts?</strong></summary>
 
-**How will local-currency conversion work?**  
-PCS needs one published conversion policy, with the rate, source and time recorded for each payment. The final conversion source remains an implementation decision, and actual provider charges must be visible.
+The internal team, after a PCS representative interviews, verifies and approves the Receiver. Receivers do not self-register for assistance; the team helps those who need support to participate.
 
-**Are all payments free of charges?**  
-PCS takes no transaction cut. The bank or payment provider may charge fees. The PCS amount follows the confirmed value the receiver receives after any deductions.
+</details>
 
-**Does a monthly allocation mean the receiver has already received money?**  
-The monthly allocation adds internal PCS. The receiver receives money when another donor makes a confirmed purchase from them.
+<details>
+<summary><strong>What does a private Donor profile hide?</strong></summary>
 
-**Does holding PCS guarantee an immediate payment?**  
-A receiver receives money when a buyer pays them. The timing depends on donor participation and available payment methods.
+It restricts access to that profile. Receiver contribution histories still show contributors, and required PCS-related earnings remain public. Receivers have public-only profiles.
 
-**How are repeated payment submissions handled?**  
-The original payment reference, time, amount and destination must be checked. One external payment can support only one completed PCS transfer. The proposed technical safeguards are explained in [Simple controls](documentation/pcs-simple-controls.md).
+</details>
 
-**Can records be erased to correct a mistake?**  
-The original record stays in the history. A management-approved correction creates a new linked PCS transfer, with the reason and approval recorded and no PCS return-transfer charge.
+<details>
+<summary><strong>Does PCS run its own bank or fiat payment gateway?</strong></summary>
 
-**Can people receive payment for legitimate work?**  
-Approved staff and providers can be paid from the appropriate separate funding, with their work and earnings disclosed. Directors cannot profit from donations, directly or indirectly.
+No. Participants use supported external banks or providers. The money reaches the selected Receiver directly; the evidence, confirmation and corresponding PCS activity follow the PCS workflow.
 
-**Can existing charity organisations participate?**  
-Yes, if approved and willing to follow PCS operating rules and transparency requirements. They must record the relevant charitable activity through PCS and disclose the required costs and earnings.
+</details>
+
+<details>
+<summary><strong>Must a Receiver have a conventional bank account?</strong></summary>
+
+An eligible supported external payment account can be used. The team helps with setup and participation, taking the provider's availability and eligibility requirements into account.
+
+</details>
+
+<details>
+<summary><strong>Why buy PCS and then donate it onward?</strong></summary>
+
+The purchase already provides direct assistance to the selling Receiver. Giving that PCS to another approved Receiver lets the next buyer make a fresh direct payment to that Receiver.
+
+</details>
+
+<details>
+<summary><strong>Is PCS traded externally or paid out from an exchange?</strong></summary>
+
+PCS is internal and cannot be traded on outside exchanges. The 1 PCS = 1 USDT rule is its valuation reference. Receivers receive external money from confirmed purchases by buyers.
+
+</details>
+
+<details>
+<summary><strong>Can the same receipt obtain PCS again?</strong></summary>
+
+One original external payment can support only one completed release. Check the transaction reference, original payment time, destination and amount; a different upload time does not make the payment new.
+
+</details>
+
+<details>
+<summary><strong>Are all payments free of provider charges?</strong></summary>
+
+PCS takes no fundraising commission or transaction cut. External providers may charge fees, which must be visible. Corresponding PCS follows the confirmed net value received.
+
+</details>
+
+<details>
+<summary><strong>Does 10,000 PCS each month mean 10,000 USDT cash has arrived?</strong></summary>
+
+The monthly allocation adds internal PCS. Cash assistance arrives through a fresh confirmed purchase. Allocations, accumulated PCS and actual external money received are separate records.
+
+</details>
+
+<details>
+<summary><strong>Can someone volunteer and also be paid for different work?</strong></summary>
+
+Yes. An unpaid volunteer activity and a separate legitimate paid service have distinct records. The paid record shows the charity or project, work, period, rate, quantity and amount paid.
+
+</details>
+
+<details>
+<summary><strong>Can a director profit if the payment is publicly disclosed?</strong></summary>
+
+No. Directors cannot profit directly or indirectly from any donations, including operating and External Services donations. Disclosure does not override that prohibition.
+
+</details>
+
+<details>
+<summary><strong>Can collections happen outside the PCS workflow?</strong></summary>
+
+Unrecorded cash, side payments and separate unauthorised collections are prohibited. External payment processing must be linked to the PCS workflow and records.
+
+</details>
+
+<details>
+<summary><strong>How are mistakes corrected?</strong></summary>
+
+Preserve the original transaction. A management-approved correction creates a new linked PCS transfer, with its reason and approval recorded and no PCS return-transfer charge. External payment handling is a separate provider process.
+
+</details>
+
+<details>
+<summary><strong>What is implemented today?</strong></summary>
+
+The repository contains prototype components and sample interfaces. Software completion is approximately 5%; the [development-status document](documentation/development-status.md) separates components present from the work needed to enforce and validate the intended operating model.
+
+</details>
 
 ## Connect with Elite Cybersecurity Specialist
 

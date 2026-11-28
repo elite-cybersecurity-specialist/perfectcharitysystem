@@ -6,9 +6,9 @@ These are intended operating rules for the clarified PCS model. The prototype do
 
 The public participant names are **Donors** and **Receivers**. Approved charity organisations can receive support under the same transparency requirements; their organisational designation does not create an eighth individual eligibility category.
 
-Receivers require an interview and approval by a PCS representative. Their profiles are always public and include their name, photographs, video and contribution history. Race and religion are not profile fields. The internal team assists receivers who need help with participation.
+Receivers require an interview and approval by a PCS representative. They cannot self-register for assistance: the PCS team creates the account after interview, verification and approval. Their profiles are always public and include their name, location, photographs, video and contribution history. Race and religion are not profile fields. The internal team assists receivers who need help with participation.
 
-Donors choose a public or private profile. Public donor profiles show whom they supported. Receiver contribution histories still show contributors when a donor's own profile is private. Both participant types have PCS volunteer achievements, distinguished from financial contributions.
+Donors choose a public or private profile. Public donor profiles show whom they supported. Receiver contribution histories still show contributors when a donor's own profile is private. Both participant types have PCS volunteer achievements. Donations to individuals, donations to charity organisations, help received, unpaid volunteering, paid services and project participation have distinct linked records.
 
 ## Monthly limits and justified exceptions
 
@@ -22,7 +22,7 @@ All participants' PCS-related earnings must be publicly disclosed through their 
 
 PCS does not profit from donations. Directors cannot profit from any donation directly or indirectly, including operating and external-project donations. A connected supplier, intermediary or nominee must not be used to bypass that prohibition. Public disclosure does not create an exception.
 
-Approved staff and providers may be paid for legitimate work from the relevant separate funding. Roles, payments, project costs and PCS-related earnings must be disclosed. There is no blanket prohibition on staff salaries.
+Approved non-director staff and providers may be paid for legitimate work from the appropriate separate funding. Each service record identifies the charity or project and location, worker, work performed, date or period, rate, hours or units, total amount paid and linked payment record. Relevant project costs, relationships and PCS-related earnings are disclosed. A person may volunteer on one occasion and receive a legitimate payment for different work; those records remain separate.
 
 ## Funding separation
 

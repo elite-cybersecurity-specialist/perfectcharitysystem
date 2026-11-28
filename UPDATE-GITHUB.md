@@ -1,41 +1,47 @@
-# Apply the PCS image and public presentation update
+# Update the existing GitHub checkout
 
-Prepared 28 November 2026. Download `PCS_GitHub_Image_Update_20261128.zip` into `~/Downloads/`.
+This full working-tree ZIP contains the updated README, fifteen core visuals, the ECS name card, eight editable diagrams, aligned documentation and the uploaded application baseline. Git history and private runtime data are excluded.
 
-The archive is an overlay for your existing checkout. Its exact replacement paths are listed in [UPDATE-FILES.txt](UPDATE-FILES.txt). The seven diagram PNGs and SVGs retain their established asset filenames. The cover, illustrated awareness artwork and official name card remain unchanged. The approved completion estimate is approximately **5%**.
+Download **PCS-GitHub-Update-20261128.zip** into your Downloads folder. The repository at `~/Downloads/GitHub/perfectcharitysystem` is already initialised and connected to its existing `origin`; use that checkout.
 
-## Extract into the existing checkout
+## Unzip, transfer, commit and push
 
-```bash
-cd ~/Downloads/GitHub/perfectcharitysystem
-git status --short --branch
-unzip -l ~/Downloads/PCS_GitHub_Image_Update_20261128.zip
-unzip -o ~/Downloads/PCS_GitHub_Image_Update_20261128.zip -d .
-```
-
-Review existing local edits before applying replacements. This archive contains only presentation paths; your repository directory, code, templates, configuration, model files, account data, uploads and Git history remain in the existing checkout.
-
-## Stage the listed files, review, commit and push
+The block extracts into a separate staging folder and copies only files listed in `UPDATE-FILES.txt`. Application source, templates, private environment configuration, runtime data and existing Git history are not on that update list. Local changes must be saved or committed before replacement.
 
 ```bash
-cd ~/Downloads/GitHub/perfectcharitysystem
-while IFS= read -r pcs_update_path; do
-    [ -n "$pcs_update_path" ] || continue
-    git add -- "$pcs_update_path"
-done < UPDATE-FILES.txt
-git diff --cached --stat
-git diff --cached -- README.md documentation UPDATE-GITHUB.md
-git commit -m "Clarify PCS diagrams and public explanation"
-git push
-git status --short --branch
+(
+  set -e
+  pcs_stage="$(mktemp -d "$HOME/Downloads/pcs-update.XXXXXX")"
+  unzip "$HOME/Downloads/PCS-GitHub-Update-20261128.zip" -d "$pcs_stage"
+  pcs_package="$pcs_stage/perfectcharitysystem"
+
+  cd "$HOME/Downloads/GitHub/perfectcharitysystem"
+  if [ -n "$(git status --porcelain)" ]; then
+    echo "Save or commit the existing local changes before applying this update."
+    exit 1
+  fi
+  git switch main
+  git pull --ff-only origin main
+
+  while IFS= read -r pcs_file; do
+    mkdir -p "$(dirname "$pcs_file")"
+    cp -a -- "$pcs_package/$pcs_file" "$pcs_file"
+  done < "$pcs_package/UPDATE-FILES.txt"
+
+  git add --pathspec-from-file=UPDATE-FILES.txt
+  git diff --cached --stat
+  git commit -m "Update PCS README, profiles and governance artwork"
+  git push origin main
+  git status --short --branch
+)
 ```
 
-Review the staged changes before committing, including any files staged before this update. These commands use the existing repository, authentication and remote. No commit or push has been performed by the file-generation process.
+The staged diff summary is printed before the commit. A failure stops the block. A normal pull or push conflict must be resolved using the actual repository state; no force push is included.
 
-## Update the existing Blogger post after the asset push
+## What is included
 
-Paste the complete separately supplied `ECS_Blogger_Perfect_Charity_System_20261128.html` into the existing PCS post’s HTML editor. Keep the established permalink: [https://elite-cybersecurity-specialist.blogspot.com/2026/11/perfect-charity-system.html](https://elite-cybersecurity-specialist.blogspot.com/2026/11/perfect-charity-system.html). Preview mobile and desktop layouts, then save the post update.
+The main cover keeps `assets/Perfect-Charity-System.png`. Images 08 and 11 replace their earlier versions, and 15 adds the complete profile activity example. Its participant and location labels are generic. The README places the logical-flow artwork near the beginning and integrates all images in reading order.
 
-The public explanation directs readers to the website. No document file, embed or download button is part of this update. Keep the current main-theme XML and its approved red Battle Offensive AI styling.
+The complete original application tree is included for reference. Only the changed presentation and documentation paths are applied by the command block, so it cannot roll newer application source back to the supplied snapshot.
 
-See [Package validation](documentation/package-validation.md) for the precise checks and publication boundary.
+The About description in [GITHUB-ABOUT.txt](GITHUB-ABOUT.txt) can be copied into GitHub's About panel separately. No public PDF download or Blogger edit is included. Software development remains self-funded and approximately 5% complete.

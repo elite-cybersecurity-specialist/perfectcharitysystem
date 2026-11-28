@@ -1,6 +1,6 @@
 Suggested About description:
 
-Direct assistance through existing payment providers, with a recorded cycle of internal, non-tradable PCS. Public receiver profiles, controlled monthly allocations, separate operating support and accountable oversight. Prototype approximately 20% complete.
+Direct support for approved individuals and charities, non-tradable internal PCS, public Receiver histories, volunteering and disclosed paid work. Separate operating funds and directors who cannot profit from donations. Self-funded; approximately 5% complete.
 
 Suggested topics:
 charity, direct-giving, transparency, accountability, volunteering, poverty-reduction, blockchain, non-tradable-token, python, fastapi
@@ -8,4 +8,4 @@ charity, direct-giving, transparency, accountability, volunteering, poverty-redu
 Company website:
 https://elite-cybersecurity-specialist.blogspot.com/
 
-The repository About panel is edited separately on GitHub. No metadata change or publication has been performed by preparing this package.
+Edit the repository About panel separately on GitHub. Updating repository files does not change that panel automatically.
