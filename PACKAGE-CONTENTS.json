@@ -1,6 +1,6 @@
 {
-  "package": "Perfect Charity System \u2014 full repository and revised presentation",
-  "package_date": "2026-11-23",
+  "package": "Perfect Charity System — supplied source snapshot with 2026-11-28 presentation refresh",
+  "package_date": "2026-11-28",
   "source": {
     "repository": "https://github.com/elite-cybersecurity-specialist/perfectcharitysystem",
     "branch": "main",
@@ -9,44 +9,33 @@
     "checked_on": "2026-11-23",
     "tracked_files": 62
   },
-  "application_status": "Prototype approximately 20% complete",
-  "scope": "Complete source snapshot and aligned presentation; application source is preserved.",
+  "application_status": "Prototype approximately 5% complete, following the approved README and presentation",
+  "scope": "Presentation overlay only; no application source, templates, runtime state or main-theme changes.",
   "code_changes": false,
   "core_images": 14,
   "official_name_cards": 1,
   "editable_diagrams": 7,
   "validation": {
-    "baseline_files_present": 62,
-    "baseline_files_changed": [
-      "README.md",
-      "assets/Perfect-Charity-System.png",
-      "documentation/deployment.md",
-      "documentation/filepurpose.md",
-      "documentation/implementation.md",
-      "documentation/information.md",
-      "documentation/production.md"
+    "checked_against": "User-supplied perfectcharitysystem(2).zip and complete Blogger post source",
+    "replacement_pngs": 7,
+    "png_dimensions": [
+      1920,
+      1080
     ],
-    "unchanged_baseline_files": 55,
-    "python_sources_syntax_checked": 8,
-    "templates_preserved": 29,
-    "model_artifacts_preserved": 4,
-    "core_png_images": 14,
-    "official_name_cards": 1,
-    "editable_svg_diagrams": 7,
-    "runtime_state_included": false,
-    "update_rehearsal": {
-      "move_instructions_rehearsed": true,
-      "presentation_files_applied": 39,
-      "existing_git_marker_preserved": true,
-      "existing_private_configuration_preserved": true,
-      "existing_account_data_preserved": true,
-      "existing_uploads_preserved": true,
-      "application_source_preserved": true,
-      "git_commit_or_push_executed": false
-    },
-    "relative_links_checked": 158,
-    "navigation_anchors_checked": 8,
-    "update_files": 39
+    "matching_editable_svgs": 7,
+    "local_markdown_links_checked": 168,
+    "existing_blog_wording_preserved": true,
+    "eleven_abuse_cards": 11,
+    "post_image_references": 15,
+    "cover_first": true,
+    "overlay_paths": 26,
+    "application_code_changed": false,
+    "pdf_included": false,
+    "main_theme_changed": false,
+    "github_push_executed": false,
+    "blogger_save_executed": false,
+    "blogger_preview_verified": false,
+    "published_page_verified": false
   },
   "self_checksum": "This inventory excludes its own file to avoid a recursive checksum.",
   "source_files": [
@@ -366,559 +355,628 @@
       "path": ".env.example",
       "bytes": 506,
       "sha256": "17770123ce91ee04ad553581277cc090a07291566a2d79028150aa98766f9d8d",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": ".gitignore",
       "bytes": 718,
       "sha256": "dba69e1f90c5e7823ce964792e2fa7c828f855cf5204d43429cb3688f0dbc957",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "GITHUB-ABOUT.txt",
       "bytes": 652,
       "sha256": "19d8285a288f44826601e6f4c2d5c40881b605a7429915f22298c423959b4f7e",
-      "status": "new"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "PCS.code-workspace",
       "bytes": 60,
       "sha256": "69e7b37e2ebdaf8fc313bf6cb74882fed65895e5f853736e65759bafb333bc6b",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "README.md",
-      "bytes": 22107,
-      "sha256": "65469d5531e47c532b4b5007949f816fde97cd88be5f4e0be688cf3b460cd207",
-      "status": "updated"
+      "bytes": 32806,
+      "sha256": "4244b413698e2a5d1315ea8654dbec1c9173366274582ae6d072e7bc8ce4824f",
+      "status": "presentation refresh"
     },
     {
       "path": "UPDATE-FILES.txt",
-      "bytes": 1287,
-      "sha256": "1555ee92592bbb9c314f69653cec86295193b2f9e74d5244171f7f7ac6d792f9",
-      "status": "new"
+      "bytes": 810,
+      "sha256": "0fccaad966bab828a634374c9eb12d2adeba481f68d78b5480fd3d7e48b61991",
+      "status": "presentation refresh"
     },
     {
       "path": "UPDATE-GITHUB.md",
-      "bytes": 3568,
-      "sha256": "077f0b93d87a641298f67fd5d580bd321d0e5a95d36c91b78bb284a22cd11161",
-      "status": "new"
+      "bytes": 2441,
+      "sha256": "377fb7d7001e72720614268fa2da227c4f5228b5f3808840ff9c9b772c7e3b92",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/02-charity-abuses-01-04.png",
       "bytes": 1953175,
       "sha256": "a31310baa7449541c7b5ae9c76d642dd4562ea494a2343d73ac1cc46382b29a6",
-      "status": "new"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "assets/03-charity-abuses-05-08.png",
       "bytes": 2061729,
       "sha256": "e68c4d306943207dda015e540eaeb845a17e8e9ff2b7e5783637e61b58696a8f",
-      "status": "new"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "assets/04-charity-abuses-09-11.png",
       "bytes": 2062129,
       "sha256": "2e2eed62de515fe8926dd83adb72decff26d718264610b940ea4932129c143a8",
-      "status": "new"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "assets/05-seven-receiver-categories.png",
       "bytes": 2237551,
       "sha256": "deb0358b4274b4c1e1d847c320ad029785324cfc9f22168e44ab71f3292c7241",
-      "status": "new"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "assets/06-direct-payments.png",
-      "bytes": 472566,
-      "sha256": "3743bc9c9aeced2148177f9f6433d0993463ebeabc3f11843ab1313d28460478",
-      "status": "new"
+      "bytes": 802670,
+      "sha256": "e079a890be3ca44cbfe2e058c419964b8eb053b0c4291bdbe54c6096f61fbda2",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/07-pcs-cycle.png",
-      "bytes": 417024,
-      "sha256": "8a0dc7cc636612a5c1e5289da47b51b5e0761c02077225d53902a0646212b12f",
-      "status": "new"
+      "bytes": 774844,
+      "sha256": "6ac3d6a27a5503c8dcfac849f07e4d0331d7687568c8da6d2f573af92fd8ac98",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/08-charity-profiles.png",
-      "bytes": 412290,
-      "sha256": "fef4557262caaf381f02d60720ad40833ff450e48d5d6f41ccd781c2938c1726",
-      "status": "new"
+      "bytes": 806582,
+      "sha256": "6a1711ca7aeb81b952fc997a3cda49235d2e6bcdbe225e3219bfc90d93e2f533",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/09-separate-funding.png",
-      "bytes": 485855,
-      "sha256": "3c90257511bbc30014dae784d48c5a45dcfbe60b11117dd70abd41f28d4eca87",
-      "status": "new"
+      "bytes": 832386,
+      "sha256": "0f777bfbf3a9e0c5e2298266ac23a9eac416b6d48ca53b60d2d64d129903ca80",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/10-external-operations-volunteering.png",
       "bytes": 2168827,
       "sha256": "16e4b67eb217327fa46b0415287749bf20adf5f7004b24c413889b5a21171e65",
-      "status": "new"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "assets/11-governance-earnings.png",
-      "bytes": 434441,
-      "sha256": "26477694de74b93de679012b3962e42d74db60bf1eae8865be33852538355098",
-      "status": "new"
+      "bytes": 799950,
+      "sha256": "74a71d94b8c5bc6d83bbda9aa4526aaef5dcb85d51718ddc368105ebc38b25be",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/12-verification-oversight.png",
-      "bytes": 510605,
-      "sha256": "3bc0efb3f0d87b5b65e88ffc8b786a85ca83f83f105b68b0e2b694449b595746",
-      "status": "new"
+      "bytes": 884782,
+      "sha256": "f05b3b260f24cbd6e651d548530be641331a20ef10530a352e939bf1a1a72e60",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/13-monthly-allocation.png",
-      "bytes": 434536,
-      "sha256": "bc0555dc01cc8b299ad1798da48b6a550e837af08d8c78784c443b26b13f0cd3",
-      "status": "new"
+      "bytes": 758815,
+      "sha256": "f644d76a9e6ab35728675bb598a769b2dda0f89e1ccc53d228e22c4897b4afc2",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/14-prevention-through-logical-flow.png",
       "bytes": 2045899,
       "sha256": "b84f377e5534dcda1e31085ca24000b444b29ff86cc31d160721f36ed98a2477",
-      "status": "new"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "assets/ECS-Official-Digital-Name-Card.jpeg",
       "bytes": 685946,
       "sha256": "00d12dd6d9b3859c5cc7b8eef15621055af635e21dc927c55c5496508c5858ea",
-      "status": "new"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "assets/Perfect-Charity-System.png",
-      "bytes": 2022959,
-      "sha256": "7b70c691f04cef56ed222184a5bb3fe0c043d14ecdf84d618aafced956814680",
-      "status": "updated"
+      "bytes": 1961947,
+      "sha256": "40c763e2ee0372316f4b3fa02547e5659b4c1d41d0372f9af5ef5ce585f7829d",
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "assets/diagrams/06-direct-payments.svg",
-      "bytes": 203921,
-      "sha256": "37f0940dd798f21edab74a3aa4a71856cc758f5520c262e533cdae3ae6152d4b",
-      "status": "new"
+      "bytes": 125397,
+      "sha256": "0e574c81aaaece74aeae2909598643d848818c70214b5802c2ac335475a17df8",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/diagrams/07-pcs-cycle.svg",
-      "bytes": 200545,
-      "sha256": "ebb0d983a64f4eb225e8992dd36d418f5eb843c52f005b6d847d1f3722414123",
-      "status": "new"
+      "bytes": 125132,
+      "sha256": "c54ec6b1e90b367773468ab017906a657433a3761d149372fe2c0e95f878adb4",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/diagrams/08-charity-profiles.svg",
-      "bytes": 199703,
-      "sha256": "45c448bc66ec4d0f26fc55d353f12e6b7f92706ed70f0b351084e028fa4f3d7c",
-      "status": "new"
+      "bytes": 124002,
+      "sha256": "1f3a3631353f49de05041f0e5a0dd0826b6774b65211afd9c5ab8cfe0a558ae3",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/diagrams/09-separate-funding.svg",
-      "bytes": 202797,
-      "sha256": "43ca39e78865a6ba349c2d2862c7d717839e29af347c27fa48505c6555b084da",
-      "status": "new"
+      "bytes": 125530,
+      "sha256": "999441631d2d345743996a2ac940b8016a1495c7e821375f1b70579ac266206f",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/diagrams/11-governance-earnings.svg",
-      "bytes": 317353,
-      "sha256": "8405eac32051ee56b8db5fff8d7c24f6788adb84cbff993e15215dda27f0a73a",
-      "status": "new"
+      "bytes": 124759,
+      "sha256": "e2f3e8aeb1920f02fa10709ba68c53ffe5e646d9ca7e39bb91464d24d6bfc6b1",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/diagrams/12-verification-oversight.svg",
-      "bytes": 206438,
-      "sha256": "294b9ec939f57a9b2729c1afde1374cdac0546bcf6ca89d3441644b2eba4502b",
-      "status": "new"
+      "bytes": 125132,
+      "sha256": "7cfe4c27a881014988c8f289b74157a83691ff8ea30f9d368c33b185d7b761e3",
+      "status": "presentation refresh"
     },
     {
       "path": "assets/diagrams/13-monthly-allocation.svg",
-      "bytes": 201174,
-      "sha256": "56e44496f9f0435ece78b88f3a9057b6acd73334617bbc3656f41ba1082e0ec2",
-      "status": "new"
+      "bytes": 123424,
+      "sha256": "12fc00fb7cb11b8c6c0c579ed3dbfb104f60384c39b69ebff0e4bd4efaaf3f7a",
+      "status": "presentation refresh"
     },
     {
       "path": "codes/pcs-crypto.py",
       "bytes": 7276,
       "sha256": "441738eaccd7395cb6e907a07546360dc5cf1cc741a441b2480654aebf0cb5c1",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "codes/pcs-profiles.py",
       "bytes": 2684,
       "sha256": "2adf07f7ce3a7ff7dad3d145f8e33add9cb90c5709a8237dfb2774372b7dd581",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "codes/pcs-wallet.py",
       "bytes": 1790,
       "sha256": "170ae038d2262eafda8c34b0896b5261fbcf76bfa9eb06ced7781a296a5f7814",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "codes/pcs-website.py",
       "bytes": 107742,
       "sha256": "407e3bcecb898a8032a971d86a451255e1ba579958491a72b750341cf5785460",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "codes/pcs_ai.py",
       "bytes": 104523,
       "sha256": "7d9fa1f0d43b4c412bf135f9caba7037559fa5e80925a283f6fcfb5499794b76",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "codes/pcs_persistence.py",
       "bytes": 2849,
       "sha256": "e470e06e6fbfe5e46a9560e8578945113026d6814b8d802f5647ac9e3b71477a",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "codes/perfectcharitysystem.py",
       "bytes": 6097,
       "sha256": "6830d0056bdb2cba0e5f3317de3ba981e295fc31becc3e3779b477ecae4b02e7",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "config/apache.conf",
       "bytes": 5677,
       "sha256": "f6960cdf4ad703c99a839bf0c7cf4c51f380e77fddf847deeed13f96befec594",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "config/config.py",
       "bytes": 1160,
       "sha256": "e0c6d1ec75b4feee32f1ab51bc23433d58a070fc5b7c0582716cc8fa27cad0f1",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "config/robots.txt",
       "bytes": 496,
       "sha256": "f88de3a13725f9fdb4164504e56c7d72c3f1b59a116da34d2244f6c189b8fccc",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "data/.gitkeep",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "data/ml_models/anomaly_detector.pkl",
       "bytes": 143928,
       "sha256": "bf163e53eb541829d78bfec6dfe1bca95d696cd68b74292fac70f0bc00afd07c",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "data/ml_models/feature_scaler.pkl",
       "bytes": 1295,
       "sha256": "1e6bfebf087714c1b894d42d4d8337ec553942f69fb550f24d47655be0e44373",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "data/ml_models/ip_reputation.pkl",
       "bytes": 524,
       "sha256": "b5169e2d4e6629f65a69ca8f800b224b73943b3bfd38e3c19f6ac1bac620a0e4",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "data/ml_models/threat_classifier.pkl",
       "bytes": 129137,
       "sha256": "12d1195aefe8b21a43586cf912c804dbf8b0f63fa5ba9bafd5cd8d7eccb097a0",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "docker/Dockerfile",
       "bytes": 413,
       "sha256": "6edfa985c9b8c6b400d679822d5669ece921cfe5d9b554e7cc862d46bb2f729e",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "docker/Dockerfile.prod",
       "bytes": 1233,
       "sha256": "e15b1f82cdbafee8d5dc5c1192fe5db9be06c17a176dff02662dcea0975dd385",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "docker/docker-compose.prod.yml",
       "bytes": 991,
       "sha256": "a9aea79e6a4044c3faba91be6cb91f1fd1d0f6cf144f209b6fcd2241839eec1f",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "docker/docker-compose.yml",
       "bytes": 299,
       "sha256": "fdf997cec900ac0e155d6beba16e5ebd607bbd095a7858d8ac0c1c39adc816e1",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "documentation/deployment.md",
-      "bytes": 2631,
-      "sha256": "ddcc48e1e247da677650b6f43fa9e701e5e49b8bbed79242e163c58ca9452cb8",
-      "status": "updated"
+      "bytes": 2630,
+      "sha256": "ff19c1b82ab8c7f49b8bc78e8c23a3860bee8beceb7f991d8a5ea64e9717a8f3",
+      "status": "presentation refresh"
     },
     {
       "path": "documentation/development-status.md",
-      "bytes": 3153,
-      "sha256": "643b1487288f47144bbd0487ed8b3e09c128bb546fc51e61438e961b41cb5233",
-      "status": "new"
+      "bytes": 3152,
+      "sha256": "f99333e6c88b72ddf5f2c1d44c9ac927bce3358623c3579ee8000cfd08b54f7a",
+      "status": "presentation refresh"
     },
     {
       "path": "documentation/filepurpose.md",
-      "bytes": 8356,
-      "sha256": "711a5040a60ef3f0f31329875892d4d77aa349926db36134c498686bb0ff0b2f",
-      "status": "updated"
+      "bytes": 8355,
+      "sha256": "2c80f30bcda01e780a95f7155a9686c78843851e1961b233d1e54b00d4df8939",
+      "status": "presentation refresh"
     },
     {
       "path": "documentation/image-generation-prompts.json",
       "bytes": 15903,
       "sha256": "91894848c765d6994f31e039f93c3de06b28e5d48cc2c4a8769ac36bb6702e49",
-      "status": "new"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "documentation/image-plan.md",
-      "bytes": 4348,
-      "sha256": "1cca3561a79f9d0583155f98bd0481ac042759d1650a39058f2c23cb1a777a64",
-      "status": "new"
+      "bytes": 5371,
+      "sha256": "005b0d0745ec54533c989c40fe3857ed6f6b085b76439781debef5527088632b",
+      "status": "presentation refresh"
     },
     {
       "path": "documentation/implementation.md",
       "bytes": 3410,
       "sha256": "76f4df0d149c13509eeab5aaa1cc6343c3c33c13fc58fc72cf0e497c22faf7db",
-      "status": "updated"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "documentation/information.md",
-      "bytes": 2319,
-      "sha256": "a72fda427df2f4dc278789a54b26bc81092b25ee14ebceb17a3555c0352c32d2",
-      "status": "updated"
+      "bytes": 2318,
+      "sha256": "e242b93b7223a2112771d38ec8fad573cb750d185f307cf0b7d835fedae87305",
+      "status": "presentation refresh"
     },
     {
       "path": "documentation/package-validation.md",
-      "bytes": 2120,
-      "sha256": "c6930fe7b5fc7015748d9414d8514ebad35183b9ea2e05b029faa379f798f226",
-      "status": "new"
+      "bytes": 3048,
+      "sha256": "93dec8e3f72bf081af0bb7e893f8d2fab74495bcb77e0800d8bb771bcc4daff8",
+      "status": "presentation refresh"
     },
     {
       "path": "documentation/pcs-governance.md",
       "bytes": 5505,
       "sha256": "a644c5b89b2deee34d669c79eee3a8733d999167e9baf035b638f7f26c1c87ac",
-      "status": "new"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "documentation/pcs-model.md",
-      "bytes": 4926,
-      "sha256": "1f58cbf24282581f0abeb385f7c2293a95f428648f6d6c37f96a552dc098b677",
-      "status": "new"
+      "bytes": 5631,
+      "sha256": "9ac23ab74a29e9543381c89b977be413620ee53830d90df6c06178fbb85a2fab",
+      "status": "presentation refresh"
     },
     {
       "path": "documentation/pcs-simple-controls.md",
       "bytes": 3912,
       "sha256": "dadc440cf52e5a63b55bfd410bafa640fde39f7be8bcd6db14e3765f122cb867",
-      "status": "new"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "documentation/production.md",
-      "bytes": 2584,
-      "sha256": "355614696856abb6b669e4c9ff6c325f2eafa1a784aa09a965f77bb31446d0eb",
-      "status": "updated"
+      "bytes": 2583,
+      "sha256": "3af0c9e42229467e1d4f54cd785bd7e1aa689f8474a1de575145524816dce1f0",
+      "status": "presentation refresh"
     },
     {
       "path": "requirements.txt",
       "bytes": 214,
       "sha256": "b71fc0beb37602698b94944e6ee93078993ddd16f330f771c5fe2acd3aff3f4a",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "scripts/start.bat",
       "bytes": 967,
       "sha256": "741636b325af60c074c564050ffb9f3172f5be0cb875ce9f526fcc7125fd6c42",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "scripts/start.sh",
       "bytes": 931,
       "sha256": "a89bfae51626c01e487da6e1ce3ac95be5a96532dc02289c99d8f36189dc467f",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/blockchain.html",
       "bytes": 8871,
       "sha256": "b68cfc1cae1388941105e2bb977a44b3e950cb8f398408cfb8b2d3d293a8f409",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/directory.html",
       "bytes": 11019,
       "sha256": "8aee590354a4807e1a5ce207723642f43169e9d4cfcff29b8ad6d16a629993cc",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/donate_pcs.html",
       "bytes": 5952,
       "sha256": "bd070a5470435d0832697c4b656ff673f7bd6ac5054635b5c1832300b07de1ea",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/donate_project.html",
       "bytes": 5974,
       "sha256": "4c573c37a6532f3e2d0dc1e83857841cfdbc62e654b3d1efbd4d50098843d3d7",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/external_services.html",
       "bytes": 7063,
       "sha256": "ebcfbefee8968e4824411394721e7a0597f85c990ba4f5f023cb96fa3eef4821",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/index.html",
       "bytes": 27417,
       "sha256": "1a6fe30200527e67a8152b38e1b00c7d9da1289013da6ad0319670bb1d51029f",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/inspector_add_coins.html",
       "bytes": 10774,
       "sha256": "5b5b9695ec5dc1d553c71e863cb1ad81dc6cdfcdded038408cf7d41e66292ec6",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/inspector_create_receiver.html",
       "bytes": 26291,
       "sha256": "2604655b6582c280db40fcd3bd3c2b1f654dffc0cf41a2b67825220eb901ea7a",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/inspector_edit_user.html",
       "bytes": 8520,
       "sha256": "c73b613ef363b96110bf1a470256e6eaf187e110c21aab2326878f8c8fe51937",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/inspector_locations.html",
       "bytes": 5371,
       "sha256": "e0365391235a4b050743277dc4c9a55e085951877b8cfa8db369ae629e5a669c",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/inspector_user_detail.html",
       "bytes": 10563,
       "sha256": "4b77e755d83adf321507a1fe5f47607bb9105aef96288e3864e54c8caf2e565e",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/inspector_users.html",
       "bytes": 9356,
       "sha256": "bac65f9c935ab062dae141d9baecfd1e49b04bf044c0f378e9d7f35bcca5b8cc",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/login.html",
       "bytes": 4240,
       "sha256": "178a2dd49adbe93e5858ea57fda7aa46a0c46737d004685b7be2a7a2b38fb3f4",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/my_purchases.html",
       "bytes": 13777,
       "sha256": "d05c97998dba277439b998acd93295a411c786cf84e7b9ee57f1df7b995e69cc",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/notifications.html",
       "bytes": 6687,
       "sha256": "c5e35ceaf5d40423a6d4fc072330ee7b3c0a1b7821503f63253dc44974499efc",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/profile.html",
       "bytes": 55467,
       "sha256": "faf514b0966b504394c7c100af05723f6b0e9da5dbe3da482583b3a0ea0bb346",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/profile_inspector.html",
       "bytes": 6771,
       "sha256": "023a126e29051628381349634fac3ff64db265b86cf3b6b91c67f33425a4b562",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/profile_public.html",
       "bytes": 14980,
       "sha256": "3cfc6f7de843b05061a4e4489413e76ae8b1c29430db853b7d871c0bc668568d",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/profile_public_seo.html",
       "bytes": 19094,
       "sha256": "7044dab879d4449106462e3e63264be5d68e6c623580f347693132e9c53c5d5d",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/projects_list.html",
       "bytes": 8038,
       "sha256": "4f7d0be6a45d9202b0f00b57c843199be8dc7c8dc19830325b6d41fa49375d61",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/purchase_crypto.html",
       "bytes": 5678,
       "sha256": "ceb7e51b9232c5723e167946725da905cdb62a8e98541d9b5adaba3898851887",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/purchase_crypto_detail.html",
       "bytes": 9276,
       "sha256": "87b425912da3a0a4742089af3771a2609da20e1c7e1f0e858f9d786bf9ff94b0",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/rankings.html",
       "bytes": 11423,
       "sha256": "c03d4d2c8573c6dfdb0b738f74e97c30719e564b9f638ebf45d74b98e7fc58f9",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/register.html",
       "bytes": 17283,
       "sha256": "47c684746f7ee156995014b66ef3ac146c83392ac2636aa17453dc05f14618eb",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/search.html",
       "bytes": 17465,
       "sha256": "2f961af1d958c739c9c7ea40b4d16569a70bd558c9e5bd5bd67984e9a33d6b63",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/sell_crypto.html",
       "bytes": 11404,
       "sha256": "dbb7ca6adb261aed02a93f2d6ea683c9a62c03abbe49f9bc15be66343108730e",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/upload_media.html",
       "bytes": 2916,
       "sha256": "d457cd116c8756453e284672aa544eba236c0604cdc7e7997549d0220461bd76",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/upload_picture.html",
       "bytes": 2752,
       "sha256": "b8cf667861534d43057b749bcee690d47495fbb9a6e935cce90f56ff03c4bb04",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "templates/view_project.html",
       "bytes": 7339,
       "sha256": "543ce3b5181cb1e920d77c787012f870a501f73fcd80027faf49c04524a51082",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     },
     {
       "path": "uploads/.gitkeep",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "status": "unchanged"
+      "status": "unchanged from supplied ZIP"
     }
-  ]
+  ],
+  "previous_package_validation": {
+    "date": "2026-11-23",
+    "validation": {
+      "baseline_files_present": 62,
+      "baseline_files_changed": [
+        "README.md",
+        "assets/Perfect-Charity-System.png",
+        "documentation/deployment.md",
+        "documentation/filepurpose.md",
+        "documentation/implementation.md",
+        "documentation/information.md",
+        "documentation/production.md"
+      ],
+      "unchanged_baseline_files": 55,
+      "python_sources_syntax_checked": 8,
+      "templates_preserved": 29,
+      "model_artifacts_preserved": 4,
+      "core_png_images": 14,
+      "official_name_cards": 1,
+      "editable_svg_diagrams": 7,
+      "runtime_state_included": false,
+      "update_rehearsal": {
+        "move_instructions_rehearsed": true,
+        "presentation_files_applied": 39,
+        "existing_git_marker_preserved": true,
+        "existing_private_configuration_preserved": true,
+        "existing_account_data_preserved": true,
+        "existing_uploads_preserved": true,
+        "application_source_preserved": true,
+        "git_commit_or_push_executed": false
+      },
+      "relative_links_checked": 158,
+      "navigation_anchors_checked": 8,
+      "update_files": 39
+    }
+  },
+  "presentation_update": {
+    "date": "2026-11-28",
+    "changed_paths": [
+      "PACKAGE-CONTENTS.json",
+      "README.md",
+      "UPDATE-FILES.txt",
+      "UPDATE-GITHUB.md",
+      "assets/06-direct-payments.png",
+      "assets/07-pcs-cycle.png",
+      "assets/08-charity-profiles.png",
+      "assets/09-separate-funding.png",
+      "assets/11-governance-earnings.png",
+      "assets/12-verification-oversight.png",
+      "assets/13-monthly-allocation.png",
+      "assets/diagrams/06-direct-payments.svg",
+      "assets/diagrams/07-pcs-cycle.svg",
+      "assets/diagrams/08-charity-profiles.svg",
+      "assets/diagrams/09-separate-funding.svg",
+      "assets/diagrams/11-governance-earnings.svg",
+      "assets/diagrams/12-verification-oversight.svg",
+      "assets/diagrams/13-monthly-allocation.svg",
+      "documentation/deployment.md",
+      "documentation/development-status.md",
+      "documentation/filepurpose.md",
+      "documentation/image-plan.md",
+      "documentation/information.md",
+      "documentation/package-validation.md",
+      "documentation/pcs-model.md",
+      "documentation/production.md"
+    ],
+    "public_website": "https://elite-cybersecurity-specialist.blogspot.com/2026/11/perfect-charity-system.html",
+    "source_of_completion_estimate": "Approved README and supplied PCS presentation; no new engineering audit."
+  }
 }

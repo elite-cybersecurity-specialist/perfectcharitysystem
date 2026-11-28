@@ -12,7 +12,17 @@ Perfect Charity System is an initiative by **Elite Cybersecurity Specialist**. I
 
 > **Self-funded · Approximately 5% complete.** This README explains the intended PCS system. The repository contains the prototype source, sample interfaces and project documentation. Development is continuing.
 
-[Profiles](#1-everyone-has-a-profile) · [Blockchain records](#2-blockchain-records-connect-the-system) · [Who receives help](#3-who-can-receive-assistance) · [Eleven abuses and public challenge](#4-the-charity-abuses-pcs-is-designed-to-address) · [Monthly PCS](#5-monthly-pcs-allocation) · [Direct payments](#6-how-donors-pay-receivers-directly) · [The donation cycle](#7-how-the-pcs-donation-cycle-continues) · [Funding](#8-three-separate-funding-purposes) · [External Services](#9-external-services-and-volunteering) · [Governance](#10-directors-and-public-earnings) · [Oversight](#11-verification-and-country-inspectors) · [Connected protections](#12-how-the-rules-work-together) · [Vision and development](#13-the-vision-and-development) · [Questions](#14-frequently-asked-questions)
+**Read the full website explanation:** [Perfect Charity System on the ECS blog](https://elite-cybersecurity-specialist.blogspot.com/2026/11/perfect-charity-system.html)
+
+## The strength is the logical flow
+
+- **Direct assistance:** money reaches the approved receiver through the donor’s chosen external payment provider.
+- **A traceable contribution:** confirmed receipt links the real payment to the corresponding PCS transfer and contribution history.
+- **A continuing cycle:** the donor can pass the same PCS onward; the next buyer makes a fresh payment to the next receiver.
+
+![Seven connected protections: verified receivers, direct payments, monthly limits, separate funding, public records, disclosed earnings and accountable oversight](assets/14-prevention-through-logical-flow.png)
+
+[Profiles](#1-everyone-has-a-profile) · [Blockchain records](#2-blockchain-records-connect-the-system) · [Who receives help](#3-who-can-receive-assistance) · [Eleven abuses and public challenge](#4-the-charity-abuses-pcs-is-designed-to-address) · [Monthly PCS](#5-monthly-pcs-allocation) · [Direct payments](#6-how-donors-pay-receivers-directly) · [The donation cycle](#7-how-the-pcs-donation-cycle-continues) · [Funding](#8-three-separate-funding-purposes) · [External Services](#9-external-services-and-volunteering) · [Governance](#10-directors-and-public-earnings) · [Oversight](#11-verification-and-country-inspectors) · [Connected protections](#12-how-the-rules-work-together) · [Build requirements](#five-simple-build-requirements) · [Vision and development](#13-the-vision-and-development) · [Questions](#14-frequently-asked-questions)
 
 <a id="5-a-public-charity-profile"></a>
 
@@ -214,6 +224,14 @@ After confirmation, the corresponding PCS moves from the receiver’s balance to
 
 The original payment time and the receipt upload time are different records. Fees, the original currency, any conversion rate and the resulting PCS amount must also be clear.
 
+### One real payment. One completed release.
+
+Match the original external transaction identity, payment time, receiver destination, currency and confirmed net value. A different receipt filename or upload time does not create another payment.
+
+The purchase status, receiver and donor balances, and ledger entry must complete together. Repeating a confirmation must not release the same PCS twice. Record the confirming person and time alongside the evidence and transaction.
+
+Sensitive changes to a receiver’s payment destination require a recorded, independent review. Preserve the destination used for each purchase.
+
 <a id="then-the-donor-can-pass-assistance-onward"></a>
 
 <a id="6-how-the-pcs-donation-cycle-continues"></a>
@@ -242,6 +260,8 @@ In this example, each purchase has a confirmed net value of **100 USDT**. Partic
 | Donor B purchases from Receiver B. | Receiver B receives a fresh net value of 100 USDT. | Receiver B transfers the 100 PCS to Donor B. |
 
 **The two receivers have received a total net value of 200 USDT from two separate purchases.** The internal PCS transfers have their own records and are not counted again as additional money received.
+
+**Two fresh payments provide 200 USDT net assistance, while the same 100 PCS circulates between participants:** Receiver A → Donor A → Receiver B → Donor B. The onward PCS donation does not create another external money payment.
 
 Each new payment comes from the next buyer. A receiver receives money when another donor purchases PCS from them.
 
@@ -352,13 +372,24 @@ Receiver approval, additional allocations, corrections and inspector actions mus
 | Staff or project costs are paid. | The correct funding purpose, costs and relevant earnings must be disclosed. Directors still cannot profit. |
 | An inspector acts. | The action is recorded and available for authorised review. |
 
-![Seven connected protections: verified receivers, direct payments, monthly limits, separate funding, public records, disclosed earnings and accountable oversight](assets/14-prevention-through-logical-flow.png)
 
 For the donor, participation stays simple: **choose a receiver, pay directly, submit the receipt, receive confirmed PCS and optionally donate it onward.**
 
 <a id="what-makes-this-approach-distinctive"></a>
 
 PCS brings direct assistance, public charity histories, volunteer achievements, separate operating support, earnings disclosure and recorded oversight into one model. Its long-term ambition is to set a world-record standard for charitable transparency through an operating system and results people can examine.
+
+## Five simple build requirements
+
+Keep participation simple. Enforce the connected rules at the points where money, balances or authority can change.
+
+1. **Unique payment; one completion.** Use the real external transaction identity. Complete the purchase, balances and ledger together; block duplicate releases.
+2. **Verified payment destinations.** Verify the receiver’s account. Preserve the destination for each purchase. Record and independently review sensitive changes.
+3. **Protected country inspector.** Enforce one inspector per country, protect access with multi-factor authentication and keep an attributable action history for authorised review.
+4. **Evidence for exceptional decisions.** Require reasons, supporting documents and management review for extra PCS, sensitive changes and related-party costs.
+5. **One verifiable transaction history.** Validate the hash-linked ledger, keep independent checkpoints and recoverable backups, and reconcile payments, PCS and spending.
+
+Before launch, publish one conversion policy and retain each rate’s source and time. The final conversion source remains an implementation decision.
 
 <a id="12-development-and-repository"></a>
 

@@ -17,7 +17,7 @@ The README integrates the latest fourteen core visuals and the original ECS digi
 | External operations | [Project vision](../assets/10-external-operations-volunteering.png) | Food, medical, shelter and water projects with visible records and volunteer achievements. |
 | Governance | [Public earnings](../assets/11-governance-earnings.png) | Directors cannot profit; relevant participant earnings and costs remain visible. |
 | Oversight | [Verification](../assets/12-verification-oversight.png) | Payment checks, recorded history, reconciliation and one inspector account per country. |
-| Combined strengths | [Connected prevention](../assets/14-prevention-through-logical-flow.png) | Seven reinforcing principles support the simple participant experience. |
+| Opening principles | [Connected prevention](../assets/14-prevention-through-logical-flow.png) | Seven reinforcing principles support the simple participant experience. |
 | Contact | [Official name card](../assets/ECS-Official-Digital-Name-Card.jpeg) | Existing ECS identity and contact details. |
 
 ## Consistency rules
@@ -38,3 +38,13 @@ Seven images use generated illustration: the cover, the three awareness panels, 
 Seven explanatory panels use controlled vector text and shapes: direct payment, the PCS cycle, profiles, funding, governance, oversight and monthly allocation. Their editable SVG files are in [assets/diagrams/](../assets/diagrams/).
 
 All explanations remain available as readable Markdown in the README. The cover preserves the existing repository asset path while using the latest approved artwork.
+
+## 28 November 2026 clarity refresh
+
+The existing PNG paths and their matching editable SVG paths are retained for seven replacement explanatory panels: 06, 07, 08, 09, 11, 12 and 13. Each export is 1920 × 1080, with larger vector text, wrapping labels and complete visible content.
+
+The cycle panel explicitly distinguishes two fresh payments providing 200 USDT net assistance from the same 100 PCS circulating between participants. The payment panel retains the absence of a PCS-owned fiat gateway and the restriction against external PCS trading.
+
+The approved cover, awareness illustrations, seven-category image, External Services artwork, connected-prevention artwork and official name card are unchanged. The cover remains the first visible real image. Connected prevention now appears near the opening once.
+
+The public explanation is available on the [PCS website](https://elite-cybersecurity-specialist.blogspot.com/2026/11/perfect-charity-system.html). No public document download is included in this refresh.

@@ -2,7 +2,7 @@
 
 ## Current package
 
-PCS is approximately **20% complete**, as stated in the repository. The clarified operating rules describe the intended design. This full repository package integrates the presentation and documentation while preserving the application baseline.
+PCS is approximately **5% complete**, as stated in the repository. The clarified operating rules describe the intended design. This full repository package integrates the presentation and documentation while preserving the application baseline.
 
 The exact GitHub source commit, file hashes and presentation changes are listed in [Package contents](../PACKAGE-CONTENTS.json).
 

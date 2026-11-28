@@ -1,6 +1,6 @@
 # File purpose map
 
-This map describes the full repository package. The implementation remains approximately 20% complete; the presence of a file or template does not establish that its intended workflow is complete.
+This map describes the full repository package. The implementation remains approximately 5% complete; the presence of a file or template does not establish that its intended workflow is complete.
 
 ## Root and folders
 

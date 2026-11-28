@@ -1,6 +1,6 @@
 # Production preparation
 
-PCS remains an approximately 20% complete prototype. This repository package is complete as a source and presentation snapshot; production application completion is a separate engineering task.
+PCS remains an approximately 5% complete prototype. This repository package is complete as a source and presentation snapshot; production application completion is a separate engineering task.
 
 ## Resolve the application entry point first
 

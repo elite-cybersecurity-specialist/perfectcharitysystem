@@ -2,7 +2,7 @@
 
 ## Scope
 
-This repository contains the approximately 20% complete PCS prototype. Existing scripts and Docker files are retained with the application baseline. Their entry-point and import integration needs correction before they can be presented as verified launch commands.
+This repository contains the approximately 5% complete PCS prototype. Existing scripts and Docker files are retained with the application baseline. Their entry-point and import integration needs correction before they can be presented as verified launch commands.
 
 This package prepares the complete source and GitHub presentation. For updating an existing checkout, use [Update GitHub](../UPDATE-GITHUB.md).
 
